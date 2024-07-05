@@ -1,0 +1,134 @@
+[
+
+
+    {
+      "id": 1,
+      "name": "Imran Hassan",
+      "image": "https://avatars.githubusercontent.com/u/147148092?v=4",
+      "date": "1 January 2024",
+      "review": {
+        "type": "good",
+        "description": "Luxury Apartments A offer spacious living areas with stunning views. The amenities are top-notch, including a gym, pool, and 24/7 concierge service. The location is convenient, close to shopping and dining options."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Micle Router",
+      "image": "https://livedemo00.template-help.com/wt_prod-28463/images/agents-03-540x460.jpg",
+      "date": "2 January 2024",
+      "review": {
+        "type": "best",
+        "description": "Cityscape Residences redefine urban living. With sleek, modern design and smart technology integration, these residences offer unparalleled comfort and convenience. The rooftop terrace provides breathtaking city views, perfect for relaxation."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sam Wilson",
+      "image": "https://livedemo00.template-help.com/wt_prod-28463/images/agents-04-540x460.jpg",
+      "date": "3 January 2024",
+      "review": {
+        "type": "bad",
+        "description": "Tranquil Gardens Apartments have potential but fall short in execution. The building maintenance is lacking, with frequent issues reported. Noise levels from neighboring units can be disruptive, affecting overall living experience."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Richmon",
+      "image": "https://tse2.explicit.bing.net/th?id=OIP.yYwDPwgDXt9kpZWQez1Z7gHaE8&pid=Api&P=0&h=220",
+      "date": "4 January 2024",
+      "review": {
+        "type": "good",
+        "description": "Oceanfront Condos offer the ultimate beachfront living experience. The units are beautifully designed with high-end finishes. Residents enjoy direct access to the beach, as well as amenities like a beachfront pool and private balconies."
+      }
+    },
+    {
+      "id": 5,
+      "name": "Rajia Sultana",
+      "image": "https://writestylesonline.com/wp-content/uploads/2016/08/Follow-These-Steps-for-a-Flawless-Professional-Profile-Picture.jpg",
+      "date": "5 January 2024",
+      "review": {
+        "type": "best",
+        "description": "Mountain View Estates is a dream for nature lovers. Surrounded by picturesque mountains, the community offers serene living with hiking trails and scenic overlooks. The homes are spacious and well-appointed, blending modern comfort with natural beauty."
+      }
+    },
+    {
+      "id": 6,
+      "name": "Taslima Khatun",
+      "image": "https://www.marketingdonut.co.uk/sites/default/files/measuring-customer-satisfaction-408402166.jpg",
+      "date": "6 January 2024",
+      "review": {
+        "type": "bad",
+        "description": "Urban Loft Living promises trendy urban living but fails to deliver. The loft spaces lack proper insulation, resulting in temperature fluctuations and noise disturbances. Additionally, the building's amenities are limited and often overcrowded."
+      }
+    },
+    {
+      "id": 7,
+      "name": "Michel Hero",
+      "image": "https://www.francelawfirm.com/wp-content/uploads/2015/09/Fotolia_69907519_Subscription_Monthly_XXL-copy.jpg",
+      "date": "7 January 2024",
+      "review": {
+        "type": "good",
+        "description": "Sunset Villas offer a peaceful retreat with stunning sunset views. The villas are elegantly designed with spacious layouts and luxurious finishes. Residents enjoy access to amenities like a clubhouse, fitness center, and beautifully landscaped gardens."
+      }
+    },
+    {
+      "id": 8,
+      "name": "Tania Rani",
+      "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/26216/images/5muGBJNHRyyOg8d9RpnU_Abby33.jpg",
+      "date": "8 January 2024",
+      "review": {
+        "type": "best",
+        "description": "Riverside Residences redefine waterfront living. With floor-to-ceiling windows offering panoramic river views, these residences provide a luxurious retreat. Residents can enjoy waterfront dining, riverfront promenades, and easy access to recreational activities."
+      }
+    },
+    {
+      "id": 9,
+      "name": "Sanaullah Roton",
+      "image": "https://c.pxhere.com/photos/08/7a/male_portrait_profile_social_media_cv_young_elegant_suit-459413.jpg!d",
+      "date": "9 January 2024",
+      "review": {
+        "type": "bad",
+        "description": "Downtown Lofts boast urban chic but suffer from maintenance issues. Elevators are frequently out of service, and common areas are poorly maintained. Noise from nearby nightlife venues can be disruptive, making it challenging to relax at home."
+      }
+    },
+    {
+      "id": 10,
+      "name": "Md Rifat",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.0yU5ipTyhVnH7We80PQeIgHaJQ&pid=Api&P=0&h=220",
+      "date": "10 January 2024",
+      "review": {
+        "type": "good",
+        "description": "Lakeview Apartments offer a tranquil lakeside retreat. The apartments feature modern design elements and scenic lake views. Residents enjoy amenities such as a lakeside pool, walking trails, and lakeside picnic areas, perfect for outdoor enthusiasts."
+      }
+    },
+    {
+      "id": 11,
+      "name": "Asraful",
+      "image": "https://d2studios.net/wp-content/uploads/blog/2015/04/6-Uses-for-a-Professional-Personal-Portrait-Photograph.jpg",
+      "date": "11 January 2024",
+      "review": {
+        "type": "best",
+        "description": "Skyline Towers epitomize luxury living with unparalleled city views. The sleek, contemporary design is complemented by high-end finishes and state-of-the-art amenities. Residents enjoy access to a rooftop infinity pool, sky lounge, and 24/7 concierge service."
+      }
+    },
+    {
+      "id": 12,
+      "name": "Abdur Rashid",
+      "image": "https://media2.popsugar-assets.com/files/thumbor/pEDGVxaIjB6Nri_eAf7Y4HRkMio=/fit-in/1024x1024/2014/12/05/000/n/1922398/86bc1fe10ca611f4_492478901.jpg",
+      "date": "12 January 2024",
+      "review": {
+        "type": "bad",
+        "description": "Garden Oasis Apartments disappoint with lackluster landscaping and maintenance. The promised 'oasis' feels neglected, with overgrown plants and littered pathways. Additionally, the apartments lack adequate soundproofing, resulting in noise disturbances."
+      }
+    },
+    {
+      "id": 13,
+      "name": "Bilgates",
+      "image": "https://image.tmdb.org/t/p/original/algQ1VEno2W9SesoArWcZTeF617.jpg",
+      "date": "13 January 2024",
+      "review": {
+        "type": "good",
+        "description": "Harborview Condominiums offer waterfront living at its finest. The condos boast breathtaking harbor views and luxurious interiors. Residents have access to a marina, waterfront dining, and a waterfront promenade, creating a resort-like atmosphere."
+      }
+    }
+]
