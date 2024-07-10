@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Education = () => {
     return (
         <div>
-            <div id="education" className="space-y-2 text-center mb-6">
+            <div id="education" className="space-y-2 text-center mb-6 mt-[50px] md:mt-[80px] ">
                 <h1
                     data-aos="fade-right"
                     data-aos-offset="300"

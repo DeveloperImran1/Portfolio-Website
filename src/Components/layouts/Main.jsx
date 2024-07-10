@@ -8,6 +8,9 @@ import Project from "../Projects/Projects";
 import Education from "../Education/Education";
 import Skills from "../Skills/Skills";
 import Footer from "../Footer/Footer";
+import { Outlet } from "react-router-dom";
+
+import '../../App.css'
 
 export default function Main() {
   return (
@@ -15,17 +18,10 @@ export default function Main() {
       <div className="max-w-[95%] mx-auto scroll-smooth rubik flex ">
         <Sidebar></Sidebar>
         <div className="md:ml-[110px] " >
-          <Home></Home>
-          <Skills></Skills>
-          <About></About>
-          {/* <Project></Project>
-          <Testimonials></Testimonials>
-          <Blogs></Blogs>
-          <Education></Education>
-          <Contact></Contact> */}
+          <Outlet></Outlet>
         </div>
       </div>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }

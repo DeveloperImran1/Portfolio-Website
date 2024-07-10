@@ -1,6 +1,5 @@
 [
     {
-        "_id": 3243242321,
         "image": [
             "https://i.ibb.co/bNQnT1k/83eb5f27cb4f42b2b6f33bb2f54dce95.webp",
             "https://i.ibb.co/Sr0X01g/586e044191f04a8684683bcfc8b5bde8.webp",
@@ -22,7 +21,6 @@
         "content": "React JS has become a go-to library for web developers because of its flexibility and efficiency. With React, you can create interactive UIs efficiently by updating and rendering just the right components when your data changes. Its component-based architecture allows for reusability, making development faster and more maintainable. Additionally, the robust community and extensive libraries and tools make it a valuable skill for any web developer."
     },
     {
-        "_id": 3243242322,
         "image": [
             "https://i.ibb.co/bNQnT1k/83eb5f27cb4f42b2b6f33bb2f54dce95.webp",
             "https://i.ibb.co/Sr0X01g/586e044191f04a8684683bcfc8b5bde8.webp",
@@ -44,7 +42,6 @@
         "content": "HTML5 is the latest version of the Hypertext Markup Language, which is used to structure content on the web. It introduces new elements and attributes that allow for more dynamic and engaging web experiences. Key features include semantic elements, multimedia support without plugins, and enhanced form controls. Understanding HTML5 is crucial for any web developer as it lays the foundation for all web development projects."
     },
     {
-        "_id": 3243242323,
         "image": [
             "https://i.ibb.co/bNQnT1k/83eb5f27cb4f42b2b6f33bb2f54dce95.webp",
             "https://i.ibb.co/Sr0X01g/586e044191f04a8684683bcfc8b5bde8.webp",
@@ -66,7 +63,6 @@
         "content": "CSS Grid Layout is a powerful tool for creating two-dimensional layouts on the web. It provides a grid-based layout system, allowing developers to design complex web pages easily and consistently. With CSS Grid, you can define rows and columns and place items precisely within the grid, making responsive design straightforward. It's an essential skill for modern web developers looking to build flexible and attractive web layouts."
     },
     {
-        "_id": 3243242324,
         "image": [
             "https://i.ibb.co/bNQnT1k/83eb5f27cb4f42b2b6f33bb2f54dce95.webp",
             "https://i.ibb.co/Sr0X01g/586e044191f04a8684683bcfc8b5bde8.webp",
@@ -88,7 +84,6 @@
         "content": "ES6, also known as ECMAScript 2015, introduced many new features that have become fundamental to modern JavaScript development. These include arrow functions, template literals, destructuring, classes, modules, and more. Understanding ES6 is crucial for writing clean, efficient, and maintainable code. This blog post explores these features and how they can improve your coding practices."
     },
     {
-        "_id": 3243242325,
         "image": [
             "https://i.ibb.co/bNQnT1k/83eb5f27cb4f42b2b6f33bb2f54dce95.webp",
             "https://i.ibb.co/Sr0X01g/586e044191f04a8684683bcfc8b5bde8.webp",
@@ -110,7 +105,6 @@
         "content": "Web accessibility ensures that websites are usable by people of all abilities and disabilities. It involves designing and developing websites so that everyone can perceive, understand, navigate, and interact with them. This blog post discusses the importance of web accessibility, the legal implications, and best practices for creating inclusive web experiences. By prioritizing accessibility, you can reach a wider audience and provide a better user experience for everyone."
     },
     {
-        "_id": 32432423216,
         "image": [
             "https://i.ibb.co/bNQnT1k/83eb5f27cb4f42b2b6f33bb2f54dce95.webp",
             "https://i.ibb.co/Sr0X01g/586e044191f04a8684683bcfc8b5bde8.webp",
@@ -132,7 +126,6 @@
         "content": "Node.js is a powerful runtime environment that allows developers to build server-side applications using JavaScript. It is known for its non-blocking, event-driven architecture, making it ideal for building scalable network applications. This blog post introduces Node.js, covering its core concepts, how to set up a basic server, and the benefits of using Node.js for backend development."
     },
     {
-        "_id": 3243242327,
         "image": [
             "https://i.ibb.co/bNQnT1k/83eb5f27cb4f42b2b6f33bb2f54dce95.webp",
             "https://i.ibb.co/Sr0X01g/586e044191f04a8684683bcfc8b5bde8.webp",
@@ -154,7 +147,6 @@
         "content": "Progressive Web Apps (PWAs) are web applications that provide a native app-like experience on the web. They offer offline capabilities, push notifications, and improved performance. This blog post delves into the features of PWAs, how they work, and why they are becoming increasingly popular among developers and users. Learn how to build your own PWA and take advantage of the latest web technologies to create fast, reliable, and engaging web experiences."
     },
     {
-        "_id": 3243242328,
         "image": [
             "https://i.ibb.co/bNQnT1k/83eb5f27cb4f42b2b6f33bb2f54dce95.webp",
             "https://i.ibb.co/Sr0X01g/586e044191f04a8684683bcfc8b5bde8.webp",

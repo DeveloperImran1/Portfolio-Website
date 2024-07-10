@@ -23,7 +23,7 @@ const Testimonials = () => {
     }, [])
     return (
         <div id="review">
-            <section className="py-6 mb-12 lg:mb-[96px] sm:py-12 max-w-[calc(100vw-220px)] ">
+            <section className="py-6 mb-7 lg:mb-[40px] sm:py-12 max-w-[90vw] lg:max-w-[calc(100vw-220px)] ">
                 <div className="container  mx-auto space-y-8">
                     <div className="space-y-2 text-center">
                         <h1 

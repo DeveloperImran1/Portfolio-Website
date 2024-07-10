@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,6 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { useEffect, useState } from "react";
+import axios from "axios";
 import { formatDistanceToNow } from "date-fns";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import { MdArrowOutward } from "react-icons/md";
@@ -127,6 +129,9 @@ const BlogsCard = ({ blog }) => {
 };
 
 export default BlogsCard;
+
+
+
 
 
 

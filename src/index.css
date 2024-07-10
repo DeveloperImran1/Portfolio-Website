@@ -1,8 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .rubik {
-    font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
+
+
+
+/* Keyframe animation for button */
+/* Copy code to element you want to animate */
+.animate-button:hover {
+  animation: customAni 2s ease 0s infinite normal none;
+  /* Copy code to element you want to animate */
+  animation: customAni 2s ease 0s infinite normal none;
+}
+
+/* Copy this code after the above code */
+@keyframes customAni {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(-5px);
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(-3px);
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(-2px);
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(-1px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Copy this code after the above code */
+@keyframes customAni {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* title style  */
+#title{
+  background: #076AA5;
+  background: linear-gradient(to right, #076AA5 0%, #0095FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 
 
