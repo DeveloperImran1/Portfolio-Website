@@ -1,0 +1,130 @@
+/* button style  */
+
+#a{
+    position: relative;
+    /* text-decoration: none; */
+    overflow: hidden;
+}
+#a:before{
+    content: "";
+    position: absolute;
+    /* top: 2px; */
+    /* left: 2px; */
+    /* bottom: 2px; */
+    width: 50%;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#a span:nth-child(1){
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #06002b, #ea1437);
+    animation: animate1 2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%)
+    }
+}
+
+#a span:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #06002b, #1779ff);
+    animation: animate2 2s linear infinite;
+
+}
+@keyframes animate2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%)
+    }
+}
+
+
+#a span:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, #06002b, #1779ff);
+    animation: animate3 2s linear infinite;
+}
+@keyframes animate3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%)
+    }
+}
+
+
+#a span:nth-child(4){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:  2px;
+    height: 100%;
+    background: linear-gradient(to top, #06002b, #1779ff);
+    animation: animate2 2s linear infinite;
+}
+@keyframes animate2{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%)
+    }
+}
+
+
+
+/* Flip card design  */
+.mainContainer{
+    position: relative;
+    width: 150px;
+    height: 220px;
+    perspective: 1000px;
+}
+
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffc728;
+    color: #333;
+}
+
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffc728;
+    color: #333;
+    transform: rotateY(180deg)
+}

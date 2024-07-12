@@ -37,3 +37,21 @@
     background-color: #076AA5;
   }
   
+
+
+  /* for contact hover animation */
+  /* Copy code to element you want to animate */
+/* Copy this code after the above code */
+@keyframes customAni {
+  0% {
+	opacity: 1;
+  }
+
+  50% {
+	opacity: 0.2;
+  }
+
+  100% {
+	opacity: 1;
+  }
+}

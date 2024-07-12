@@ -14,14 +14,19 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="hidden md:flex flex-col justify-start  items-center fixed border-r-2 shadow-inner  h-[100vh] " >
-      <Link to="/" >
+      <Link to="/" className="relative">
         <img
-          className="h-[60px] w-[60px]"
-          src="https://tse4.mm.bing.net/th?id=OIP.W_MeRmKJ0d9WsrUx7XiHRgHaHa&pid=Api&P=0&h=220"
+          className="h-[22px] w-[17px] animate-spin absolute top-[12px] left-[25px] mx-auto"
+          src="https://tech-apps-f8d51.web.app/assets/logo-BKgrWx8u.png"
+          alt=""
+        />
+        <img
+          className="h-[60px] w-[60px] mt-4"
+          src="https://i.ibb.co/S64gtJh/I-logo.png"
           alt=""
         />
       </Link>
-      <div className="flex flex-col gap-4 mt-11" >
+      <div className="flex flex-col gap-4 mt-16" >
 
 
         <div className="tooltip  tooltip-right" data-tip="Home">

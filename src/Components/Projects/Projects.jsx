@@ -14,13 +14,21 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Title from "../Shared/Title";
 
+
+
 const Project = () => {
+
+ 
+
     return (
         <div id="projects">
             <h1 className="text-3xl mb-5 mt-[110px] font-bold text-center"></h1>
             <Title title={"Recent Projects"} description={"Explore my latest projects where I've combined front-end development expertise with UX design to craft captivating, user-friendly websites. Each project exemplifies my dedication to transforming concepts into exceptional web experiences that inspire clients and engage users"}></Title>
-            .
-            <div className="bg-[#e7e7e7]  rounded-2xl mb-14" >
+            
+
+       
+
+            <div className="bg-white  rounded-2xl mb-14" >
                 <div className="flex flex-col lg:flex-row justify-between gap-11 p-6" >
 
                     <Swiper
@@ -53,11 +61,11 @@ const Project = () => {
 
 
                     {/* <iframe className="h-[550px] min-w-[50%] rounded-lg" src="https://touristbook.netlify.app/" frameborder="0"></iframe> */}
-                    <div className="relative max-w-[37vw]" >
+                    <div className="relative  lg:max-w-[37vw]" >
                         <h1 className="text-3xl font-semibold  text-center mb-[30px]" >TouristBook</h1>
 
-                        <h1 className="text-xl font-semibold " > Enhance Your Travel Experience with TouristBook </h1>
-                        <p className="text-base my-3">TouristBook is a travel management website. This secure user authentication, detailed spot listings with images, transparent pricing, interactive community engagement, and responsive support make TouristBook the ideal platform for seamless travel planning and booking experiences</p>
+                        <h1 className="text-xl font-semibold text-center" > Enhance Your Travel Experience with TouristBook </h1>
+                        <p className="text-base my-3 text-center hidden md:block">TouristBook is a travel management website. This secure user authentication, detailed spot listings with images, transparent pricing, interactive community engagement, and responsive support make TouristBook the ideal platform for seamless travel planning and booking experiences</p>
                         <h3 className="text-[17px] font-semibold mt-8 mb-3" >Features:</h3>
                         <ul>
                             <li className="flex justify-start items-start gap-2" >
@@ -79,7 +87,7 @@ const Project = () => {
                         </ul>
 
                         <div className="" >
-                            <div className="mt-6 flex gap-1 md:gap-2 lg:gap-3" >
+                            <div className="mt-6 flex flex-wrap gap-1 md:gap-2 lg:gap-3" >
 
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">React JS</button>
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Express JS</button>
@@ -87,7 +95,7 @@ const Project = () => {
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Firebase</button>
                             </div>
 
-                            <div className="mt-4 flex gap-1 md:gap-2 lg:gap-3" >
+                            <div className="mt-4 flex flex-wrap gap-1 md:gap-2 lg:gap-3" >
                                 <Link to="https://touristbook.netlify.app/" >
                                     <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink size={18}></FaLink>Live Link</button>
                                 </Link>
@@ -107,8 +115,8 @@ const Project = () => {
 
 
             {/* roomIntel website  */}
-            <div className="bg-[#e7e7e7]  rounded-2xl mb-14" >
-                <div className="flex flex-col lg:flex-row justify-between gap-11 p-6" >
+            <div className="bg-white  rounded-2xl mb-14" >
+                <div className="flex flex-col lg:flex-row justify-between gap-11 p-6 z-50" >
 
                     <Swiper
                         // spaceBetween={30}
@@ -138,10 +146,10 @@ const Project = () => {
 
             
                 
-                    <div className="relative max-w-[37vw]" >
-                        <h1 className="text-3xl font-semibold  text-center mb-[30px]" >RoomIntel</h1>
+                    <div className="relative lg:max-w-[37vw]" >
+                        <h1 className="text-3xl font-semibold  text-center  mb-[30px]" >RoomIntel</h1>
 
-                        <h1 className="text-xl font-semibold " >Easy and Secure Online Room Reservations</h1>
+                        <h1 className="text-xl font-semibold text-center" >Easy and Secure Online Room Reservations</h1>
                         <p className="text-base my-3">Any Person visit My website and he choose room with detail information and Price range. If This room is available. You Filter now your rooms with price range.</p>
                         <h3 className="text-[17px] font-semibold mt-8 mb-3" >Features:</h3>
                         <ul>
@@ -164,7 +172,7 @@ const Project = () => {
                         </ul>
 
                         <div className="" >
-                            <div className="mt-6 flex gap-1 md:gap-2 lg:gap-3" >
+                            <div className="mt-6 flex flex-wrap gap-1 md:gap-2 lg:gap-3" >
 
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">React JS</button>
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Express JS</button>
@@ -172,7 +180,7 @@ const Project = () => {
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Firebase</button>
                             </div>
 
-                            <div className="mt-4 flex gap-1 md:gap-2 lg:gap-3" >
+                            <div className="mt-4 flex flex-wrap gap-1 md:gap-2 lg:gap-3" >
                                 <Link to="https://room-intel.netlify.app/" >
                                     <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink size={18}></FaLink>Live Link</button>
                                 </Link>
@@ -192,7 +200,7 @@ const Project = () => {
 
 
             {/* TravelsBook website  */}
-            <div className="bg-[#e7e7e7]  rounded-2xl mb-14" >
+            <div className="bg-white  rounded-2xl mb-14" >
                 <div className="flex flex-col lg:flex-row justify-between gap-11 p-6" >
 
                     <Swiper
@@ -227,11 +235,11 @@ const Project = () => {
 
 
                     {/* <iframe className="h-[550px] min-w-[50%] rounded-lg" src="https://touristbook.netlify.app/" frameborder="0"></iframe> */}
-                    <div className="relative max-w-[37vw]" >
+                    <div className="relative lg:max-w-[37vw]" >
                         <h1 className="text-3xl font-semibold  text-center mb-[30px]" >TravelsBook</h1>
 
-                        <h1 className="text-xl font-semibold " >𝐓𝐫𝐚𝐯𝐞𝐥𝐬𝐁𝐨𝐨𝐤 website is Agency site.</h1>
-                        <p className="text-base my-3">Our website offers an interactive platform for users to explore and book tourist spots with ease. Featuring an engaging home slider, detailed tourist spot cards, user authentication, and a personalized profile page, our site ensures a seamless and enjoyable user experience.</p>
+                        <h1 className="text-xl font-semibold text-center" >𝐓𝐫𝐚𝐯𝐞𝐥𝐬𝐁𝐨𝐨𝐤 website is Agency site.</h1>
+                        <p className="text-base hidden md:block my-3">Our website offers an interactive platform for users to explore and book tourist spots with ease. Featuring an engaging home slider, detailed tourist spot cards, user authentication, and a personalized profile page, our site ensures a seamless and enjoyable user experience.</p>
                         <h3 className="text-[17px] font-semibold mt-8 mb-3" >Features:</h3>
                         <ul>
                             <li className="flex justify-start items-start gap-2" >
@@ -253,7 +261,7 @@ const Project = () => {
                         </ul>
 
                         <div className="" >
-                            <div className="mt-6 flex gap-1 md:gap-2 lg:gap-3" >
+                            <div className="mt-6 flex flex-wrap gap-1 md:gap-2 lg:gap-3" >
 
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">React JS</button>
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Express JS</button>
@@ -261,7 +269,7 @@ const Project = () => {
                                 <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Firebase</button>
                             </div>
 
-                            <div className="mt-4 flex gap-1 md:gap-2 lg:gap-3" >
+                            <div className="mt-4 flex flex-wrap gap-1 md:gap-2 lg:gap-3" >
                                 <Link to="https://assignment-10-10bbc.web.app/" >
                                     <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink size={18}></FaLink>Live Link</button>
                                 </Link>

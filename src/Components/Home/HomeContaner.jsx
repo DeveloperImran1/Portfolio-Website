@@ -1,4 +1,3 @@
-import About from "../About/About";
 import HomeBlogs from "../Blogs/HomeBlogs";
 import Contact from "../Contact/Contact";
 import Education from "../Education/Education";
@@ -11,13 +10,15 @@ const HomeContaner = () => {
     return (
         <div>
             <Home></Home>
+            
+            <div >
             <Skills></Skills>
-            <About></About>
             <Project></Project>
-            <HomeBlogs></HomeBlogs>
+          {/*   <HomeBlogs></HomeBlogs>
             <Testimonials></Testimonials>
             <Education></Education>
-            <Contact></Contact>
+            <Contact></Contact>  */}
+            </div>
         </div>
     );
 };
