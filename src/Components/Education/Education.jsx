@@ -1,20 +1,16 @@
 import { FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Title from "../Shared/Title";
 
 const Education = () => {
     return (
         <div>
             <div id="education" className="space-y-2 text-center mb-6 mt-[50px] md:mt-[80px] ">
-                <h1
-                    data-aos="fade-right"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine"
-                    className="text-[40px] font-bold text-[#131313] text-center max-w-full ">Education & Courses</h1>
-
-
+            
+                <Title title={"Education & Courses"} description={""}></Title>
             </div>
 
-            <div className="bg-white p-8 mx-auto rounded-2xl flex justify-between gap-[70px]">
+            <div className="bg-white p-8 mx-auto rounded-2xl flex flex-col md:flex-row  justify-between gap-[70px]">
                 <div>
                     <h1 className="text-3xl font-semibold mb-9">Education</h1>
                     <ol className="relative border-s border-gray-200 dark:border-gray-700">

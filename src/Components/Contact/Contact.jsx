@@ -4,52 +4,82 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { useState } from "react";
-
+import Title from "../Shared/Title";
+import useAxiosPublic from "../../page/hooks/useAxiosPublic";
+import { useQuery } from "@tanstack/react-query";
+import emailjs from "@emailjs/browser"
+import toast from "react-hot-toast";
 const Contact = () => {
-    const [hover, setHover] = useState(false);
+    const handleSubmit = e => {
+        e.preventDefault();
+        const name = e.target.name.value;
+        const email = e.target.email.value;
+        const subject = e.target.subject.value;
+        const message = e.target.message.value;
+        const reqruiterData = {name, email, subject, message}
+        console.log(reqruiterData)
 
-    const style = {
-        animation: hover && "customAni 4s ease 0s infinite normal none"
+        // Your email js Service Id, template ID, Publick key
+        const surviceID = 'service_n06bewv';
+        const templateId= 'template_h5k7zom';
+        const publicKey = 'c9thbzAGsWYUJdLbZ';
+
+        // Create new object that contain dynamic content
+        const templateParams = {
+            from_name: name ,
+            to_name: "Md Imran",
+            email_id: email,
+            message: `Subject: ${subject} And Message: ${message}` 
+        }
+     
+        if(!name || !email || !subject || !message){
+            return toast.error("Please, Fillup All Input Filled")
+        }
+        // send email using email js
+        emailjs.send(surviceID, templateId, templateParams, publicKey)
+        .then(responce => {
+            console.log("Email sent successfully", responce)
+            if(responce){
+                return toast.success('Successfully Send Your Email')
+
+            }
+        })
+        .catch((error)=> {
+            console.log(error)
+
+        })
     }
-    const style2 = {
-        animation: !hover && "customAni 4s ease 0s infinite normal none"
-    }
+
+
+
     return (
         <div>
-            <section id="contact" className="py-6 mb-12 lg:mb-[96px] sm:py-12 max-w-[calc(100vw-220px)] ">
+            <section id="contact" className="lg:py-6 mb-12 lg:mb-[96px] mt-[30px] lg:mt-[70px]">
                 <div className="container  mx-auto space-y-8">
                     <div className="space-y-2 text-center mb-6">
-                        <h1
-                            data-aos="fade-right"
-                            data-aos-offset="300"
-                            data-aos-easing="ease-in-sine"
-                            className="text-[40px] font-bold text-[#131313] text-center max-w-full ">Get In Touch</h1>
-                        <p
-                            data-aos="fade-left"
-                            data-aos-offset="300"
-                            data-aos-easing="ease-in-sine"
-                            className=" text-[16px] text-[#131313CC] text-center mb-12 max-w-full lg:w-[80%] mx-auto ">At Haven House, our residents satisfaction is our top priority. Dont just take our word for it – hear what some of our happy residents have to say... </p>
 
+
+                        <Title title={"Get In Touch"} description={"Contact me to discuss your next project or collaboration. Let's create impactful web solutions together with my expertise in frontend development and commitment to quality and innovation."}></Title>
                     </div>
 
-                    <div className="flex justify-between items-start gap-8 " >
-                        <div className="flex flex-col justify-center items-left  w-[50%]">
+                    <div className="flex flex-col lg:flex-row justify-between items-start gap-8 " >
+                        <div className="flex flex-col justify-center items-center lg:items-left w-full lg:w-[50%]">
                             <h1 className="text-xl font-bold ml-8">Let's Talk About Everything!</h1>
                             <p className="flex gap-1 items-center ml-8 mt-4" >Don't like form? Send me an email <FaHandshake size={18} className="text-yellow-800" ></FaHandshake> </p>
 
                             {/* <img className="h-[330px] w-[90%]" src="https://i.ibb.co/dW7Dsb2/noctidial-technical-support-online-assistant-user-help-frequently-asked-questions-call-center-worker.png" alt="" /> */}
 
-                            <div className="flex mb-[40px] flex-col lg:flex-row justify-between gap-6 items-start" >
+                            <div className="flex mb-[40px] flex-col lg:flex-row justify-between items-center gap-6 lg:items-start" >
                                 <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center  w-full gap-4 mt-8  " >
-                            
+
 
                                     {/* <div className="grid grid-cols-2" > */}
-                                  
+
                                     <div
-                                        onMouseEnter={()=>setHover(true)}
-                                        onMouseLeave={()=>setHover(false)}
-                                        style={style}
-                                 
+                                        // onMouseEnter={() => setHover(true)}
+                                        // onMouseLeave={() => setHover(false)}
+                                        // style={style}
+
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
                                         data-aos-delay="50"
@@ -64,10 +94,10 @@ const Contact = () => {
 
 
                                     <div
-                                        onMouseEnter={()=>setHover(true)}
-                                        onMouseLeave={()=>setHover(false)}
-                                        style={style2}
-                                 
+                                        // onMouseEnter={() => setHover(true)}
+                                        // onMouseLeave={() => setHover(false)}
+                                        // style={style2}
+
                                         data-aos="fade-up"
                                         data-aos-anchor-placement="center-bottom"
                                         data-aos-delay="50"
@@ -80,26 +110,26 @@ const Contact = () => {
                                         </div>
                                     </div>
 
-                                    </div>
                                 </div>
-                            </div>
-
-                            <div className=" ">
-                                <span className="flex ">
-                                    <input className="rounded-3xl w-full border bg-white px-4 py-2  focus:outline-none" type="text" placeholder="Your Name" />
-                                    <input className="rounded-3xl w-full border bg-white px-4 py-2  focus:outline-none" type="text" placeholder="Your Email" />
-                                </span>
-                                <input className="rounded-3xl border w-full mt-14 bg-white px-4 py-2  focus:outline-none" type="text" placeholder="Insert Your Subject" />
-                                <textarea className="rounded-3xl border h-[160px] w-full mt-8 bg-white px-4 py-2  focus:outline-none" type="text" placeholder="Write Your Message" />
-                             
-                                <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Send Message</button>
-
-
                             </div>
                         </div>
 
+                        <form onSubmit={handleSubmit} className=" ">
+                            <span className="flex ">
+                                <input name="name" className="rounded-3xl w-full border bg-white px-4 py-2  focus:outline-none" type="text" placeholder="Your Name" />
+                                <input name="email" className="rounded-3xl w-full border bg-white px-4 py-2  focus:outline-none" type="text" placeholder="Your Email" />
+                            </span>
+                            <input name="subject" className="rounded-3xl border w-full mt-14 bg-white px-4 py-2  focus:outline-none" type="text" placeholder="Insert Your Subject" />
+                            <textarea name="message" className="rounded-3xl border h-[160px] w-full mt-8 bg-white px-4 py-2  focus:outline-none" type="text" placeholder="Write Your Message" />
 
+                            <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Send Message</button>
+
+
+                        </form>
                     </div>
+
+
+                </div>
             </section>
         </div>
     );

@@ -10,8 +10,40 @@ import { RiContactsFill } from "react-icons/ri";
 import { FaBloggerB } from "react-icons/fa6";
 import { FaSwatchbook } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const Sidebar = () => {
+
+  // Initialize state variables
+  const [theme, setTheme] = useState(() => {
+    // Retrieve theme from localStorage on component mount
+    const locatTheme = localStorage.getItem("theme");
+    // If no theme is found in localStorage, default to dark theme
+    // return locatTheme === "dark" ? true : false;
+    return locatTheme === "light" ? true : false;
+  });
+
+  // Function to toggle theme
+  const toggleTheme = () => {
+    setTheme((prevTheme) => !prevTheme);
+  };
+
+  useEffect(() => {
+    // Store current theme in localStorage
+    // localStorage.setItem("theme", theme ? "dark" : "light");
+    localStorage.setItem("theme", theme ? "light" : "dark");
+
+    // Apply theme to HTML element
+    // document.querySelector('html').setAttribute('data-theme', theme ? "dark" : "light");
+    document
+      .querySelector("html")
+      .setAttribute("data-theme", theme ? "light" : "dark");
+  }, [theme]); // Re-run effect when theme changes
+
+
+  // 3 dot menu
+  const [toggle, setToggle] = useState(false)
+
   return (
     <div className="hidden md:flex flex-col justify-start  items-center fixed border-r-2 shadow-inner  h-[100vh] " >
       <Link to="/" className="relative">
@@ -25,7 +57,11 @@ const Sidebar = () => {
           src="https://i.ibb.co/S64gtJh/I-logo.png"
           alt=""
         />
+        
       </Link>
+
+      
+            
       <div className="flex flex-col gap-4 mt-16" >
 
 

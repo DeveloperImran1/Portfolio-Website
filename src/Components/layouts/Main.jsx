@@ -37,13 +37,13 @@ export default function Main() {
 
   return (
     <div className="bg-[#f9f7fd]" >
-      <div className="max-w-[95%] mx-auto scroll-smooth rubik flex ">
+      <div className="max-w-[95%] mx-auto scroll-smooth rubik flex bg-[#f9f7fd]">
         <Sidebar></Sidebar>
-        <div className="md:ml-[110px] " >
+        <div className="md:ml-[110px] bg-[#f9f7fd]" >
           <Outlet></Outlet>
         </div>
       </div>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
 
 {/* <Particle></Particle> */}
    

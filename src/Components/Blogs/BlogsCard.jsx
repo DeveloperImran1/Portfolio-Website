@@ -33,7 +33,7 @@ const BlogsCard = ({ blog }) => {
     return (
 
 
-        <div className="mx-auto max-w-[350px] space-y-6 rounded-xl bg-white px-4 pb-8 pt-4 font-sans shadow-lg  dark:bg-[#18181B]">
+        <div className="mx-auto max-w-[300px] md:max-w-[350px] space-y-6 rounded-xl bg-white px-4 pb-8 pt-4 font-sans shadow-lg  dark:bg-[#18181B]">
             <Link to={`/blog/${_id}`} className="relative flex h-48 w-full justify-center lg:h-[280px] border-2">
                 <Swiper
                     centeredSlides={true}

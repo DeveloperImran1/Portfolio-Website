@@ -10,14 +10,14 @@ const HomeContaner = () => {
     return (
         <div>
             <Home></Home>
-            
+
             <div >
-            <Skills></Skills>
-            <Project></Project>
-          {/*   <HomeBlogs></HomeBlogs>
-            <Testimonials></Testimonials>
-            <Education></Education>
-            <Contact></Contact>  */}
+                <Skills></Skills>
+                <Project></Project>
+                <HomeBlogs></HomeBlogs>
+                <Testimonials></Testimonials>
+                <Education></Education>
+                <Contact></Contact>
             </div>
         </div>
     );

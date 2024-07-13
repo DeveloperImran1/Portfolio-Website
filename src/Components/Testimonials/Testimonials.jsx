@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
 import SatisfiedClientCard from "./SatisfiedClientCard";
+import Title from "../Shared/Title";
 
 const Testimonials = () => {
     const [clients, setClients] = useState([]);
@@ -23,21 +24,10 @@ const Testimonials = () => {
     }, [])
     return (
         <div id="review">
-            <section className="py-6 mb-7 lg:mb-[40px] sm:py-12 max-w-[90vw] lg:max-w-[calc(100vw-220px)] ">
+            <section className="py-6 mt-[50px] md:mt-[80px] mb-7 lg:mb-[40px] sm:py-12 max-w-[100vw] md:max-w-[calc(100vw-220px)] ">
                 <div className="container  mx-auto space-y-8">
-                    <div className="space-y-2 text-center">
-                        <h1 
-                        data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                         className="text-[40px] font-bold text-[#131313] text-center max-w-full ">Clients Reviews</h1>
-                        <p
-                        data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                         className=" text-[16px] text-[#131313CC] text-center mb-12 max-w-full lg:w-[80%] mx-auto ">At Haven House, our residents satisfaction is our top priority. Dont just take our word for it – hear what some of our happy residents have to say... </p>
-
-                    </div>
+                   
+                    <Title title={"Clients Reviews"} description={"I recently discussed various projects with clients and demonstrated how my services met their expectations"}></Title>
                     <Marquee className="max-w-full h-[470px]" autoFill="false" pauseOnHover="true" speed="100">
 
 
