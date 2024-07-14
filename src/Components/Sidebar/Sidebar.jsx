@@ -11,126 +11,112 @@ import { FaBloggerB } from "react-icons/fa6";
 import { FaSwatchbook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { FaUsers } from "react-icons/fa";
 
+import { IoReorderThree } from "react-icons/io5";
 const Sidebar = () => {
 
-  // Initialize state variables
-  const [theme, setTheme] = useState(() => {
-    // Retrieve theme from localStorage on component mount
-    const locatTheme = localStorage.getItem("theme");
-    // If no theme is found in localStorage, default to dark theme
-    // return locatTheme === "dark" ? true : false;
-    return locatTheme === "light" ? true : false;
-  });
-
-  // Function to toggle theme
-  const toggleTheme = () => {
-    setTheme((prevTheme) => !prevTheme);
-  };
-
-  useEffect(() => {
-    // Store current theme in localStorage
-    // localStorage.setItem("theme", theme ? "dark" : "light");
-    localStorage.setItem("theme", theme ? "light" : "dark");
-
-    // Apply theme to HTML element
-    // document.querySelector('html').setAttribute('data-theme', theme ? "dark" : "light");
-    document
-      .querySelector("html")
-      .setAttribute("data-theme", theme ? "light" : "dark");
-  }, [theme]); // Re-run effect when theme changes
+  const [sidebar, setSidebar] = useState(true)
 
 
-  // 3 dot menu
-  const [toggle, setToggle] = useState(false)
 
   return (
-    <div className="hidden md:flex flex-col justify-start  items-center fixed border-r-2 shadow-inner  h-[100vh] " >
-      <Link to="/" className="relative">
-        <img
-          className="h-[22px] w-[17px] animate-spin absolute top-[12px] left-[25px] mx-auto"
-          src="https://tech-apps-f8d51.web.app/assets/logo-BKgrWx8u.png"
-          alt=""
-        />
-        <img
-          className="h-[60px] w-[60px] mt-4"
-          src="https://i.ibb.co/S64gtJh/I-logo.png"
-          alt=""
-        />
-        
-      </Link>
 
-      
-            
-      <div className="flex flex-col gap-4 mt-16" >
-
-
-        <div className="tooltip  tooltip-right" data-tip="Home">
-          <a href="#home" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-            <MdHome size={20} className="text-[#0095ff]"></MdHome>
-          </a>
-        </div>
-
-
-
-        <div className="tooltip  tooltip-right" data-tip="Skills">
-          <a href="#skills" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-
-            <GrUserSettings size={17} className="text-[#0095ff]"></GrUserSettings>
-          </a>
-        </div>
-
-        <div className="tooltip  tooltip-right" data-tip="Projects">
-          <a href="#projects" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-
-            <FaLayerGroup size={17} className="text-[#0095ff]"></FaLayerGroup>
-          </a>
-        </div>
-
-        <div className="tooltip  tooltip-right" data-tip="Blogs">
-          <a href="#blogs" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-
-            <FaBloggerB size={17} className="text-[#0095ff]"></FaBloggerB>
-          </a>
-        </div>
-
-        <div className="tooltip  tooltip-right" data-tip="Review">
-          <a href="#review" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-
-            <FaRegMessage size={17} className="text-[#0095ff]"></FaRegMessage>
-          </a>
-        </div>
-
-
-        <div className="tooltip  tooltip-right" data-tip="Education">
-          <a href="#education" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-
-            <FaGraduationCap size={17} className="text-[#0095ff]"></FaGraduationCap>
-          </a>
-        </div>
-
-        <div className="tooltip  tooltip-right" data-tip="Contact">
-          <a href="#contact" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-
-            <RiContactsFill size={17} className="text-[#0095ff]"></RiContactsFill>
-          </a>
-        </div>
-
-
-  
-        <div className="tooltip  tooltip-right" data-tip="All Blogs">
-          <a href="/blogs" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-
-            <FaSwatchbook size={17} className="text-[#0095ff]"></FaSwatchbook>
-          </a>
-        </div>
-
-
+    <div className="">
+       <div  className=' fixed top-[2%] right-[6%] md:hidden cursor-pointer z-50'>
+        <IoReorderThree onClick={()=> setSidebar(!sidebar)} size={26} className=''></IoReorderThree>
       </div>
 
-      {/* <div className="-rotate-90 -ml-14 mt-6 text-sm ">
+      <div className={`${sidebar ? 'ablolute -left-[70px] md:left-0' : 'flex bg-[#F2F2F2] z-50 ablolute left-0 sm:w-[200px] w-[300px] md:w-[60px] '} md:flex flex-col justify-start  items-center fixed border-r-2 shadow-inner  h-[100vh] transition-all transform `} >
+        <Link to="/" className="relative">
+
+          <img
+            className="h-[22px] w-[17px] animate-spin absolute top-[12px] left-[25px] mx-auto"
+            src="https://tech-apps-f8d51.web.app/assets/logo-BKgrWx8u.png"
+            alt=""
+          />
+          <img
+            className="h-[60px] w-[60px] mt-4"
+            src="https://i.ibb.co/S64gtJh/I-logo.png"
+            alt=""
+          />
+
+        </Link>
+
+     
+
+
+        <div className="flex flex-col gap-4 mt-16" >
+
+
+          <div className="tooltip  tooltip-right" data-tip="Home">
+            <a href="#home" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+              <MdHome size={20} className="text-[#0095ff]"></MdHome>
+            </a>
+          </div>
+
+
+
+          <div className={`tooltip  tooltip-right `} data-tip="Skills">
+            <a href="#skills" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+
+              <GrUserSettings size={17} className="text-[#0095ff]"></GrUserSettings>
+            </a>
+          </div>
+
+          <div className="tooltip  tooltip-right" data-tip="Projects">
+            <a href="#projects" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+
+              <FaLayerGroup size={17} className="text-[#0095ff]"></FaLayerGroup>
+            </a>
+          </div>
+
+          <div className="tooltip  tooltip-right" data-tip="Blogs">
+            <a href="#blogs" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+
+              <FaBloggerB size={17} className="text-[#0095ff]"></FaBloggerB>
+            </a>
+          </div>
+
+          <div className="tooltip  tooltip-right" data-tip="My Team">
+            <a href="#review" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+
+              <FaUsers size={17} className="text-[#0095ff]"></FaUsers>
+            </a>
+          </div>
+
+
+          <div className="tooltip  tooltip-right" data-tip="Education">
+            <a href="#education" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+
+              <FaGraduationCap size={17} className="text-[#0095ff]"></FaGraduationCap>
+            </a>
+          </div>
+
+          <div className="tooltip  tooltip-right" data-tip="Contact">
+            <a href="#contact" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+
+              <RiContactsFill size={17} className="text-[#0095ff]"></RiContactsFill>
+            </a>
+          </div>
+
+
+
+          <div className="tooltip  tooltip-right" data-tip="All Blogs">
+            <a href="/blogs" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+
+              <FaSwatchbook size={17} className="text-[#0095ff]"></FaSwatchbook>
+            </a>
+          </div>
+
+
+        </div>
+
+        {/* <div className="-rotate-90 -ml-14 mt-6 text-sm ">
         <p >&copy; 2024</p>
       </div> */}
+      </div>
+
     </div>
   );
 };

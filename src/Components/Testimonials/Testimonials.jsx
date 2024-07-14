@@ -27,7 +27,7 @@ const Testimonials = () => {
             <section className="py-6 mt-[50px] md:mt-[80px] mb-7 lg:mb-[40px] sm:py-12 max-w-[100vw] md:max-w-[calc(100vw-220px)] ">
                 <div className="container  mx-auto space-y-8">
                    
-                    <Title title={"Clients Reviews"} description={"I recently discussed various projects with clients and demonstrated how my services met their expectations"}></Title>
+                    <Title title={"My Team Members"} description={"We excel in front-end development, UI/UX design, React proficiency, responsive design, JavaScript coding, HTML/CSS mastery, back-end integration, performance optimization, and strategic SEO implementation."}></Title>
                     <Marquee className="max-w-full h-[470px]" autoFill="false" pauseOnHover="true" speed="100">
 
 

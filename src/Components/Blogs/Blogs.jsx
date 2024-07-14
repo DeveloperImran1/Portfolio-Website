@@ -36,7 +36,7 @@ const Blogs = () => {
 
 
     // pagination er kiso kaj
-    const numberOfPage = 7;
+    const numberOfPage = 4;
     const pages = numberOfPage ? [...Array(numberOfPage).keys()] : 0;
 
     const handlePrev = () => {
@@ -203,7 +203,7 @@ const Blogs = () => {
                 <div onClick={handlePrev} className=' hover:scale-110 scale-100 transition-all duration-200 cursor-pointer hover:bg-sky-200 px-1 py-1 rounded-full'>
                     <svg className='w-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"> <path d="M15 7L10 12L15 17" stroke="#0284C7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /> </g></svg>
                 </div>
-                <div className='hidden md:flex  justify-center items-center md:gap-2  '>
+                <div className='flex  justify-center items-center md:gap-2  '>
                     {pages.map((item, ind) => <div onClick={() => setCurrentPage(item)} className={`cursor-pointer hover:scale-110 scale-100 transition-all duration-200  px-5 md:px-5 ${currentPage === item ? 'bg-sky-500 text-white' : 'bg-white'} border-sky-300  font-semibold text-gray-700   py-3 rounded-full`} key={item}>
                         {item + 1}
                     </div>)}

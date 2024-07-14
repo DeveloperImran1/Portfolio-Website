@@ -37,7 +37,7 @@ export default function Main() {
 
   return (
     <div className="bg-[#f9f7fd]" >
-      <div className="max-w-[95%] mx-auto scroll-smooth rubik flex bg-[#f9f7fd]">
+      <div className="  lg:max-w-[95%] mx-auto scroll-smooth rubik flex bg-[#f9f7fd]">
         <Sidebar></Sidebar>
         <div className="md:ml-[110px] bg-[#f9f7fd]" >
           <Outlet></Outlet>

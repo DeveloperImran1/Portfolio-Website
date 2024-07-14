@@ -116,7 +116,7 @@ const Footer = () => {
                     </div>
                 </nav>
             </div>
-            <aside className="text-center mt-9">
+            <aside className="text-center mt-9 mb-[-50px]">
                 <hr className="lg:w-[calc(100vw-120px)] lg:ml-[100px] " />
                 <p className="mt-7 pb-[50px]">Copyright © {new Date().getFullYear()} - All right reserved by Md Imran</p>
             </aside>

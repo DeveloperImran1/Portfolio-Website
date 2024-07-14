@@ -12,7 +12,7 @@ const SatisfiedClientCard = ({client}) => {
                 <div className="flex flex-col flex-1 py-6">
                     <a rel="noopener noreferrer"  aria-label="Te nulla oportere reprimique his dolorum"></a>
                     <p rel="noopener noreferrer"  className="text-[20px] font-semibold tracking-wider uppercase hover:underline ">{name}</p>
-                    <h3 className="flex-1 py-2 text-lg font-normal leading-snug">{reviewDes.slice(0, 37)}</h3>
+                    <h3 className="flex-1 py-2 text-lg font-normal leading-snug">{reviewDes}</h3>
                     <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs ">
                         <span>{date}</span>
                         <span>{reviewType}</span>
