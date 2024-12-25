@@ -85,7 +85,74 @@
   -webkit-text-fill-color: transparent;
 }
 
+/*  logo icon hover syle  */
+.animate-scale {
+  animation: hoverScale 2s ease 0s infinite normal none;
+}
 
+@keyframes hoverScale{
+  0%{
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.7);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* Mongodb logo icon hover syle  */
+.animate-scale-mongoDb {
+  animation: hoverScaleMongodb 3s ease 0s infinite normal none;
+}
+
+@keyframes hoverScaleMongodb{
+  0%{
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(1.7);
+  }
+  100%{
+    transform: scale(0.3);
+  }
+}
+
+/* Mongodb logo icon hover syle  */
+.animate-smoth-bounce{
+  animation: logoBounce 3s ease 0s infinite normal none;
+}
+
+@keyframes logoBounce{
+  0%{
+    transform: translateY(20%);
+  }
+  50% {
+    transform: translateY(-20%);
+  }
+  100%{
+    transform: translateY(20%);
+  }
+}
+
+
+/* project section bg animation  */
+.bg-animation {
+  background-size: cover;
+  background-position: center top;
+  transition: background-position 3s ease-in-out; /* Smooth animation */
+}
+
+.bg-animation:hover {
+  background-position: center bottom; /* Scrolls to bottom */
+}
+/* Ensure the overlay does not block hover events */
+.overlay {
+  pointer-events: none; /* Allows hover events to pass through */
+}
 
 
 @tailwind base;

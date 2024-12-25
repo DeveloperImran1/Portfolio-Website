@@ -239,25 +239,25 @@ const BlogsDetails = () => {
     return (
         <div>
 
-            <div className="container flex flex-col w-full max-w-[70%] p-6 mx-auto  rounded-md dark:divide-gray-300 dark:bg-gray-50 dark:text-gray-800">
+            <div className="container flex flex-col w-[95%] md:max-w-[70%] p-6 mx-auto  rounded-md ">
                 <h2 className="text-4xl font-bold mb-5" >{blog?.title}</h2>
 
                 <div className="flex justify-between p-4 border-b-2">
                     <div className="flex space-x-4">
                         <div>
-                            <img src={` ${blog?.userProfileImage || "https://source.unsplash.com/100x100/?portrait"}`} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+                            <img src={`https://avatars.githubusercontent.com/u/147148092?v=4`} alt="" className="object-cover w-12 h-12 rounded-full " />
                         </div>
                         <div>
                             <h4 className="font-bold">{blog?.userName}</h4>
-                            <span className="text-xs dark:text-gray-600"> {blog?.date && formatDistanceToNow(new Date(blog?.date))} ago</span>
+                            <span className="text-xs "> {blog?.date && formatDistanceToNow(new Date(blog?.date))} ago</span>
                         </div>
                     </div>
-                    <div className="flex items-center space-x-2 dark:text-yellow-700">
+                    <div className="flex items-center space-x-2 ">
                         <MdComment size={22} ></MdComment>
                         <span className="text-xl font-bold">{blog?.comments?.length}</span>
                     </div>
                 </div>
-                <div className="space-y-2 mt-8  dark:text-gray-600 border-b-2 pb-9">
+                <div className="space-y-2 mt-8   border-b-2 pb-9">
                     <img src={blog?.image?.[0]} className="w-full h-[500px] rounded-lg mb-8" alt="" />
 
                     <p>{blog?.content}</p>
@@ -305,16 +305,16 @@ const BlogsDetails = () => {
                 </div>
                 <form onSubmit={handleReview} className="flex text-white mt-8 flex-col w-full ">
 
-                    <textarea name="message" rows="3" placeholder="Message..." className="p-4 border-2 rounded-md resize-none text-black dark:text-gray-800 dark:bg-gray-50" spellcheck="false"></textarea>
+                    <textarea name="message" rows="3" placeholder="Message..." className="p-4 border-2 rounded-md resize-none text-black" spellcheck="false"></textarea>
 
                     <div className="flex w-full justify-between items-center ">
-                        <button type="submit" className="py-4 my-8 w-[180px] font-semibold rounded-md dark:text-gray-50 bg-[#076aa5]">Submit Comment</button>
+                        <button type="submit" className="py-4 my-8 w-[180px] font-semibold rounded-md  bg-[#076aa5]">Submit Comment</button>
 
                         <Tabs
                             aria-label="Options" color="primary" variant="bordered">
                             <Tab
                                 key="photos"
-                                className="dark:text-gray-50 bg-[#076aa5] rounded-2xl"
+                                className=" bg-[#076aa5] rounded-2xl"
                                 title={
                                     <div onClick={() => setShow(!show)}
 
@@ -326,7 +326,7 @@ const BlogsDetails = () => {
                             />
                             <Tab
                                 key="music"
-                                className="dark:text-gray-50 bg-[#076aa5] rounded-2xl"
+                                className=" bg-[#076aa5] rounded-2xl"
                                 title={
                                     <div onClick={() => setShow(!show)}
 
@@ -351,15 +351,15 @@ const BlogsDetails = () => {
                             blog?.comments.slice().reverse().map((comment, index) => <div key={index} className="mb-7 border-b-2" >
                                 <div className="flex justify-between p-4 ">
                                     <div className="flex space-x-4">
-                                        <Link to={`/userProfile/${comment?.email}`} >
-                                            <img src={` ${comment?.photoURL || "https://source.unsplash.com/100x100/?portrait"}`} alt="" className="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
+                                        <Link >
+                                            <img src={`https://writestylesonline.com/wp-content/uploads/2016/08/Follow-These-Steps-for-a-Flawless-Professional-Profile-Picture.jpg`} alt="" className="object-cover w-12 h-12 rounded-full " />
                                         </Link>
                                         <div>
                                             <h4 className="font-bold">{comment?.userName}</h4>
-                                            <span className="text-xs dark:text-gray-600"> {comment?.date && formatDistanceToNow(new Date(comment?.date))} ago</span>
+                                            <span className="text-xs "> {comment?.date && formatDistanceToNow(new Date(comment?.date))} ago</span>
                                         </div>
                                     </div>
-                                    <div className="flex items-center space-x-2 dark:text-yellow-700 pointer ">
+                                    <div className="flex items-center space-x-2  pointer ">
                                         <FaReply size={22} ></FaReply>
                                         <span className="text-xl font-bold">Reply</span>
                                     </div>

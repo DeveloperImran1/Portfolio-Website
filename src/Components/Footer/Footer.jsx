@@ -1,11 +1,11 @@
 import { FaFacebookF } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import { FaPhoneAlt } from "react-icons/fa";
 import emailjs from "@emailjs/browser"
 import toast from "react-hot-toast";
 const Footer = () => {
+  const currentPage = useLocation();
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -49,7 +49,7 @@ const Footer = () => {
     return (
 
 
-        <footer className="bg-base-200  rounded bg-cover h-full w-full  text-white" style={{ backgroundImage: "url(https://library-2dd53.web.app/assets/footer-bg-DeOrrMU2.jpg)" }}>
+        <footer className="bg-base-200 mb-[-26px] rounded bg-cover h-full w-full  text-white" style={{ backgroundImage: "url(https://library-2dd53.web.app/assets/footer-bg-DeOrrMU2.jpg)" }}>
 
             <div className="footer footer-center flex flex-col lg:flex-row justify-evenly items-center  p-8" >
                 <div className="flex flex-col items-center w-[300px] ">
@@ -61,7 +61,7 @@ const Footer = () => {
                         />
                         <img
                             className="h-[60px] w-[60px] mt-4"
-                            src="https://i.ibb.co/S64gtJh/I-logo.png"
+                            src="https://i.ibb.co/zb2S576/I-logo-removebg-preview.png"
                             alt=""
                         />
                     </Link>
@@ -73,17 +73,17 @@ const Footer = () => {
                     <h1 className=" footer-title text-start">Important Links</h1>
                     <nav className="flex items-start  gap-11 mt-5">
                         <div className="flex flex-col items-start gap-4">
-                            <a href="#home" className="link link-hover scroll-smooth">About</a>
-                            <a className="link link-hover">My Skills</a>
-                            <a className="link link-hover">Projects</a>
-                            <a className="link link-hover">Client Rivew</a>
+                            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#home'}`} className="link link-hover scroll-smooth">About</a>
+                            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#skills'}`}  className="link link-hover">My Skills</a>
+                            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#projects'}`} className="link link-hover">Projects</a>
+                            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#review'}`}  className="link link-hover">Client Rivew</a>
                         </div>
 
                         <div className="flex flex-col items-start  gap-4">
-                            <a className="link link-hover">Education</a>
-                            <a className="link link-hover">Blogs</a>
-                            <a href="/blogs" className="link link-hover">All Blogs</a>
-                            <a className="link link-hover">Contact</a>
+                            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#education'}`} className="link link-hover">Education</a>
+                            <a  href={`${currentPage.pathname.includes('blogs') ? '/' : '#blogs'}`} className="link link-hover">Blogs</a>
+                            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#achived'}`} className="link link-hover">Achived</a>
+                            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#achived'}`} className="link link-hover">Contact</a>
                         </div>
 
                     </nav>
@@ -102,13 +102,13 @@ const Footer = () => {
                     </div>
 
                     <div className="grid grid-flow-col gap-4">
-                        <Link to="https://www.facebook.com/DeveloperImran1" className="hover:text-[#076aa5] hover:bg-white rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+                        <Link target="_blank" to="https://www.facebook.com/imran9066588" className="hover:text-[#076aa5] hover:bg-white rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
                             <FaFacebookF className="text-white hover:text-[#076aa5] text-[16px]" />
                         </Link>
-                        <Link to="https://www.linkedin.com/in/developerimran1122/" className="hover:text-[#076aa5] hover:bg-white rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+                        <Link target="_blank" to="https://www.linkedin.com/in/developerimran1122/" className="hover:text-[#076aa5] hover:bg-white rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
                             <FaLinkedin className="text-white hover:text-[#076aa5] text-[16px]" />
                         </Link>
-                        <Link to="https://github.com/DeveloperImran1" className="hover:text-[#076aa5] rounded-full hover:bg-white shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+                        <Link target="_blank" to="https://github.com/DeveloperImran1" className="hover:text-[#076aa5] rounded-full hover:bg-white shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
                             <FaGithub className="text-white hover:text-[#076aa5] text-[16px]" />
                         </Link>
                      
@@ -116,7 +116,7 @@ const Footer = () => {
                     </div>
                 </nav>
             </div>
-            <aside className="text-center mt-9 mb-[-50px]">
+            <aside className="text-center mt-9 ">
                 <hr className="lg:w-[calc(100vw-120px)] lg:ml-[100px] " />
                 <p className="mt-7 pb-[50px]">Copyright © {new Date().getFullYear()} - All right reserved by Md Imran</p>
             </aside>
@@ -127,3 +127,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

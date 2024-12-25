@@ -2,43 +2,33 @@
 
 // Home.js
 import { FaFacebookF, FaGithub, FaLinkedin } from 'react-icons/fa';
-import resume from '../../assets/Resume Front-End-Developer (Imran).pdf';
+import resume from '../../assets/Imran Resume Front-end Development.pdf';
 import { Link } from 'react-router-dom';
-import ParticleConfig from "../Particle/Particle";
 
 export default function Home() {
 
   return (
-    <div id="home" className={`relative flex flex-col justify-center items-center gap-2 mx-auto  lg:mt-[70px] lg:h-[100vh] min-w-[calc(100vw-220px)]`}>
+    <div id="home" className={`relative flex flex-col justify-center items-center gap-2 mx-auto mt-[40px] md:mt-[70px]  `}>
 
       
-      <div className='hidden lg:block'>
-        <ParticleConfig />
-      </div>
-      <img className="w-[150px] h-[150px] z-10 rounded-full" src="https://i.ibb.co/C5j8rL3/Blue-Modern-Facebook-Profile-Picture.png" alt="Profile Image" />
-      <span className="text-[40px] font-bold text-center flex justify-center items-center gap-3 mt-3 z-10">
+      <img className="w-[150px] lg:w-[180px] h-[150px] lg:h-[180px] z-10 rounded-full" src="https://i.postimg.cc/PxXKg8zy/Developer-Imran-Profile.png" alt="Profile Image" />
+      <span className=" text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center mt-3 ">
         Hi <img className="" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width="35" />
-       <span className='flex md:hidden'>I am Imran</span>
+       <span className='ml-[10px] '>I am Imran</span>
        </span>
-      <div className="wrapper hidden md:flex absolute top-[25%]">
-        <svg className="svg">
-          <text x="50%" y="50%" dy=".35em" textAnchor="middle">
-            I am Imran
-          </text>
-        </svg>
-      </div>
-      <h1 className="text-2xl font-bold text-center mt-[50px] z-10">Front-End Web Developer</h1>
-      <p className="mb-3 md:w-[50%] mx-auto text-center">
+    
+      <h1 className="text-[18px] md:text-2xl font-bold text-center mt-[10px] z-10">Front-End Web Developer</h1>
+      <p className="mb-3 w-[95%] md:w-[50%] mx-auto text-center">
         Front-end web developer with expertise in React, Tailwind CSS, and smooth user experience design, performance optimization, and intuitive interfaces for seamless web interactions
       </p>
       <div className="grid grid-flow-col gap-4">
-        <Link to="https://www.facebook.com/DeveloperImran1" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+        <Link target='_blank' to="https://www.facebook.com/imran9066588" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
           <FaFacebookF className="text-blue-600 hover:text-[#076aa5] text-[16px]" />
         </Link>
-        <Link to="https://www.linkedin.com/in/developerimran1122/" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+        <Link target='_blank' to="https://www.linkedin.com/in/developerimran1122/" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
           <FaLinkedin className="text-blue-600 hover:text-[#076aa5] text-[16px]" />
         </Link>
-        <Link to="https://github.com/DeveloperImran1" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+        <Link target='_blank' to="https://github.com/DeveloperImran1" className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)] duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
           <FaGithub className="text-blue-600 hover:text-[#076aa5] text-[16px]" />
         </Link>
       </div>
@@ -70,32 +60,14 @@ export default function Home() {
         </a>
       </div>
 
+   
+      <img className="h-[60px] w-[60px] rounded-full  animate-spin absolute top-[-4%] right-[15%]" src="https://i.ibb.co/sW5JBYT/reactjs.png" alt="" />
+      <img className="animate-scale-mongoDb h-[30px] w-[30px]  rounded-full  absolute  top-[24%] right-[15%]" src="https://i.ibb.co/WGVjtbX/mongodb.png" alt="" />
 
-      {/* <div> */}
-      <img className='h-[30px] w-[30px] hidden lg:block  rounded-full hover:animate-spin absolute top-[4%] right-[20%]' src="https://i.ibb.co/Ns0mvQf/html5.png" alt="" />
-      <img className='h-[30px] w-[30px] hidden lg:block  rounded-full hover:animate-spin absolute top-[16%] left-[6%]' src="https://i.ibb.co/1GzSwm8/css3.png" alt="" />
-      <img className="h-[36px] w-[36px] hidden lg:block rounded-full hover:animate-spin absolute top-[50%] right-[90%]" src="https://i.ibb.co/2ZfCjX0/tailwindcss.png" alt="" />
+      <img className="h-[40px] w-[40px] rounded-full hover:animate-spin absolute top-[-4%] left-[15%]" src="https://i.ibb.co/VBJgmgv/javascript.png" alt="" />
 
-      <img className="h-[60px] w-[60px] rounded-full  animate-spin absolute top-[-10%] left-[65%]" src="https://i.ibb.co/sW5JBYT/reactjs.png" alt="" />
-      <img className="h-[50px] w-[50px] hidden lg:block rounded-full animate-spin absolute top-[6%] left-[90%]" src="https://i.ibb.co/g6D3GsT/nodejs.png" alt="" />
+      <img className="animate-scale h-[30px] w-[30px] hidden lg:block  rounded-full absolute top-[24%] left-[15%]" src="https://i.ibb.co/wJDDjpc/expressjs.png" alt="" />
 
-      <img className="h-[40px] w-[40px] rounded-full hover:animate-spin absolute -top-[9%] right-[10%]" src="https://i.ibb.co/VBJgmgv/javascript.png" alt="" />
-
-      <img className="h-[30px] w-[30px] hidden lg:block  rounded-full hover:animate-spin absolute -top-[10%] left-[15%]" src="https://i.ibb.co/wJDDjpc/expressjs.png" alt="" />
-
-      <img className="h-[50px] w-[50px] hidden lg:block rounded-full hover:animate-spin absolute -top-[7%] left-[35%]" src="https://i.ibb.co/WGVjtbX/mongodb.png" alt="" />
-      <img className="h-[55px] w-[55px] hidden lg:block rounded-full hover:animate-spin absolute top-[10%] left-[27%]" src="https://i.ibb.co/n7KcsPK/github.png" alt="" />
-
-      <img className="h-[30px] w-[30px] hidden lg:block  rounded-full hover:animate-spin absolute top-[20%] left-[85%]" src="https://i.ibb.co/gJNnM1S/git.png" alt="" />
-
-      <img className="h-[30px] w-[30px] hidden lg:block  rounded-full hover:animate-spin absolute top-[40%] left-[75%]" src="https://i.ibb.co/sQ6mHJw/figma.png" alt="" />
-      <img className="h-[30px] w-[30px] hidden lg:block  rounded-full hover:animate-spin absolute top-[30%] left-[5%]" src="https://i.ibb.co/Zd51cmf/npm.png" alt="" />
-
-      <img className="h-[30px] w-[30px] hidden lg:block  rounded-full hover:animate-spin absolute top-[40%] left-[25%]" src="https://i.ibb.co/mG9Psfn/pixso.png" alt="" />
-
-      <img className="h-[30px] w-[30px] hidden lg:block  rounded-full hover:animate-spin absolute top-[40%] left-[85%]" src="https://i.ibb.co/wpkXMh2/adobe-photoshop.png" alt="" />
-
-      {/* </div> */}
     </div>
   );
 }

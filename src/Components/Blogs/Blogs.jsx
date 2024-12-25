@@ -14,6 +14,8 @@ import { Link, useLocation } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import useAxiosPublic from "../../page/hooks/useAxiosPublic";
 import { IoIosArrowForward } from "react-icons/io";
+import Loading from "../Shared/LoadingSpiner";
+import DataNotFound from "../Shared/DataNotFound";
 
 const Blogs = () => {
     const [search, setSearch] = useState("");
@@ -52,7 +54,7 @@ const Blogs = () => {
     }
 
 
-    const { data: blogs = [], refetch } = useQuery({
+    const { data: blogs = [], refetch, isLoading } = useQuery({
         queryKey: ['blogs', search, currentPage],
         queryFn: async () => {
             const res = await axiosPublic.get(`/blogs?search=${search}&page=${currentPage + 2}`)
@@ -70,17 +72,39 @@ const Blogs = () => {
     })
 
 
+    if (blogs?.length == 0) {
+        return <>
+            <DataNotFound></DataNotFound>
 
+            <div className='flex select-none justify-center items-center md:gap-5  mt-8 max-w-[100vw] md:max-w-[100vw-220px] mb-[70px] lg:mb-[80px]'>
+                {/* left arrow */}
+                <div onClick={handlePrev} className=' hover:scale-110 scale-100 transition-all duration-200 cursor-pointer hover:bg-sky-200 px-1 py-1 rounded-full'>
+                    <svg className='w-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"> <path d="M15 7L10 12L15 17" stroke="#0284C7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /> </g></svg>
+                </div>
+                <div className='flex  justify-center items-center md:gap-2  '>
+                    {pages.map((item, ind) => <div onClick={() => setCurrentPage(item)} className={`cursor-pointer hover:scale-110 scale-100 transition-all duration-200  px-5 md:px-5 ${currentPage === item ? 'bg-sky-500 text-white' : 'bg-white'} border-sky-300  font-semibold text-gray-700   py-3 rounded-full`} key={item}>
+                        {item + 1}
+                    </div>)}
+                </div>
+                {/* right arrow */}
+
+                <div onClick={handleNext} className=' hover:scale-110 scale-100 transition-all duration-200 cursor-pointer hover:bg-sky-200 px-2 py-2 rounded-full'>
+                    <IoIosArrowForward size={30} className="text-sky-500"></IoIosArrowForward>
+                </div>
+            </div>
+        </>
+    }
 
     return (
         <div>
+
             {
                 location?.pathname === "/blogs" && <div>
                     <div className="flex  items-center justify-between" >
-                        <div className="flex flex-col justify-start items-start gap-4 my-7" >
+                        <Link to="/" className="flex flex-col justify-start items-start gap-4 my-7" >
                             <p className="text-[18px] text-center sriracha px-2 rounded-md text-white  -rotate-6 bg-[#076aa5] " >Bloogs</p>
                             <h2 className="text-3xl font-bold " >Explore Our All Blogs</h2>
-                        </div>
+                        </Link>
                         <div>
                             <label className="input input-bordered flex items-center gap-2 w-full">
                                 <input type="text" onChange={e => setSearch(e.target.value)} className="grow" placeholder="Search" />
@@ -90,11 +114,11 @@ const Blogs = () => {
                         </div>
                     </div>
 
-                    <section className="dark:bg-gray-100 dark:text-gray-800">
+                    <section className="">
                         <div className="container max-w-full lg:p-6 mx-auto space-y-6 sm:space-y-12">
-                            <a rel="noopener noreferrer" href="#" className="block max-w-sm gap-3 mx-auto sm:max-w-full  hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
-                                {/* <img src="https://source.unsplash.com/random/480x360" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" /> */}
-                                <Link className="relative flex justify-center lg:h-[370px] border-2 object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500">
+                            <a rel="noopener noreferrer" href="#" className="block max-w-sm gap-3 mx-auto sm:max-w-full  hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 ">
+                                {/* <img src="https://source.unsplash.com/random/480x360" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 " /> */}
+                                <Link className="relative flex justify-center lg:h-[370px] border-2 object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 ">
                                     <Swiper
                                         centeredSlides={true}
                                         autoplay={{
@@ -177,7 +201,7 @@ const Blogs = () => {
                                     <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline mb-11">This is Most Popular Blog!</h3>
 
                                     <h3 className="text-[16px]  font-[500px] sm:text-2xl group-hover:underline group-focus:underline">{blogs.slice(-1)?.[0]?.title?.slice(0, 50)}</h3>
-                                    <span className="text-xs dark:text-gray-600">
+                                    <span className="text-xs ">
 
                                         {blogs.slice(-1)?.[0]?.date && format(new Date(blogs.slice(-1)?.[0]?.date), 'P')}
 
@@ -193,12 +217,12 @@ const Blogs = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 " >
                 {
-                    blogs?.slice().reverse().map(blog => <BlogsCard key={blog?._id} blog={blog} refetch={refetch} ></BlogsCard>)
+                    isLoading ? <Loading></Loading> : blogs?.slice(0, 6).reverse().map(blog => <BlogsCard key={blog?._id} blog={blog} refetch={refetch} ></BlogsCard>)
                 }
             </div>
 
 
-            <div className='flex select-none justify-center items-center md:gap-5  mt-8 max-w-[100vw] md:max-w-[100vw-220px]'>
+            <div className='flex select-none justify-center items-center md:gap-5  mt-8 max-w-[100vw] md:max-w-[100vw-220px] mb-[70px] lg:mb-[80px]'>
                 {/* left arrow */}
                 <div onClick={handlePrev} className=' hover:scale-110 scale-100 transition-all duration-200 cursor-pointer hover:bg-sky-200 px-1 py-1 rounded-full'>
                     <svg className='w-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth={0} /><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" /><g id="SVGRepo_iconCarrier"> <path d="M15 7L10 12L15 17" stroke="#0284C7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /> </g></svg>
