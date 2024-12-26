@@ -62,9 +62,9 @@ export default function Home() {
 
    
       <img className="h-[60px] w-[60px] rounded-full  animate-spin absolute top-[-4%] right-[15%]" src="https://i.ibb.co/sW5JBYT/reactjs.png" alt="" />
-      <img className="animate-scale-mongoDb h-[30px] w-[30px]  rounded-full  absolute  top-[24%] right-[15%]" src="https://i.ibb.co/WGVjtbX/mongodb.png" alt="" />
+      <img className="animate-scale h-[30px] w-[30px]  rounded-full  absolute  top-[24%] right-[15%]" src="https://i.ibb.co/WGVjtbX/mongodb.png" alt="" />
 
-      <img className="h-[40px] w-[40px] rounded-full hover:animate-spin absolute top-[-4%] left-[15%]" src="https://i.ibb.co/VBJgmgv/javascript.png" alt="" />
+      <img className="h-[40px] w-[40px] rounded-full absolute top-[-4%] left-[15%]" src="https://i.ibb.co/VBJgmgv/javascript.png" alt="" />
 
       <img className="animate-scale h-[30px] w-[30px] hidden lg:block  rounded-full absolute top-[24%] left-[15%]" src="https://i.ibb.co/wJDDjpc/expressjs.png" alt="" />
 

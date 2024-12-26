@@ -261,16 +261,7 @@ const BlogsDetails = () => {
                     <img src={blog?.image?.[0]} className="w-full h-[500px] rounded-lg mb-8" alt="" />
 
                     <p>{blog?.content}</p>
-                    <p className="text-[19px] font-semibold mt-11 mb-2" >How this is Shaping Our Future</p>
-                    <p>Artificial Intelligence (AI) has rapidly evolved from a futuristic concept to an integral part of our daily lives. From personal assistants like Siri and Alexa to more complex systems like autonomous vehicles and advanced data analytics, AI is revolutionizing the way we interact with technology. One of the most significant impacts of AI is its ability to process and analyze large volumes of data at unprecedented speeds. This capability is transforming industries such as healthcare, finance, and marketing by enabling more accurate predictions and personalized services.
-
-                        In healthcare, AI-powered diagnostic tools are improving the accuracy of medical diagnoses and treatment plans. Machine learning algorithms can analyze medical images and patient data to detect diseases earlier and with greater precision than human doctors. In finance, AI is being used to detect fraudulent transactions, assess credit risks, and provide personalized financial advice. Marketing teams are leveraging AI to analyze consumer behavior, predict trends, and deliver targeted advertising.
-                        <br></br>
-                        <br></br>
-                        Despite the numerous benefits, the rise of AI also raises ethical and societal concerns. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and implemented responsibly. As AI continues to evolve, it is crucial for governments, businesses, and individuals to collaborate on creating frameworks that promote transparency, accountability, and fairness in AI technologies. The future of AI holds immense potential, and its responsible integration into society will be key to harnessing its full benefits.</p>
-
-                    <p className="text-[19px] font-semibold mt-11 mb-2" >Revolutionizing Connectivity and Beyond</p>
-                    <p>5G technology is set to revolutionize the way we connect to the internet, offering unprecedented speed, reliability, and capacity. As the fifth generation of wireless technology, 5G promises to deliver data speeds up to 100 times faster than its predecessor, 4G LTE. This leap in connectivity is not just about faster download and upload speeds; it is about enabling a new era of technological innovation and transformation across various industries.</p>
+          
                 </div>
 
                 <h2 className="text-2xl font-bold my-11" >Coments ({blog?.comments?.length})</h2>

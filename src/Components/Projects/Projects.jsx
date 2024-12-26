@@ -52,6 +52,7 @@ const Project = () => {
                             <div className="relative p-[20px] lg:max-w-[37vw]" >
                                 <div className="flex justify-between items-center ">
                                     <h1 className="text-xl font-semibold  text-left " >EventSphare</h1>
+
                                     <div className="avatar-group -space-x-[8px] rtl:space-x-reverse">
                                         <div className="avatar">
                                             <div className="w-[30px]">
@@ -86,6 +87,7 @@ const Project = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <p className="text-sm text-left " >Team Project</p>
 
                                 <p className="text-base my-3 text-left">A dynamic event management and booking platform offering seamless ticketing, live chat, and video support.</p>
 
@@ -185,8 +187,9 @@ const Project = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <p className="text-sm text-left " >Team Project</p>
 
-                                <p className="text-base my-3 text-left">Built and maintain Book Vila, a responsive React-based e-commerce platform with user-centric design and seamless functionality.</p>
+                                <p className="text-base my-3 text-left">Built and maintain Book Vila, a responsive React-based e-commerce platform with user-centric design.</p>
 
                                 <div className="" >
 
