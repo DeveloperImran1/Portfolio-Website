@@ -4,13 +4,13 @@ import Title from "../Shared/Title";
 
 const Education = () => {
     return (
-        <div>
-            <div id="education" className="space-y-2 text-center mb-6 mt-[50px] md:mt-[80px] ">
+        <div className="bg-white rounded-2xl">
+            <div id="education" className="space-y-2 text-center mb-6 mt-[50px] md:mt-[80px] pt-8 ">
             
                 <Title title={"Education & Courses"} description={""}></Title>
             </div>
 
-            <div className="bg-white p-8 mx-auto rounded-2xl flex flex-col md:flex-row  justify-between gap-[70px]">
+            <div className=" p-8 mx-auto  flex flex-col md:flex-row  justify-between gap-[70px]">
                 <div>
                     <h1 className="text-3xl font-semibold mb-9">Education</h1>
                     <ol className="relative border-s border-gray-200 ">

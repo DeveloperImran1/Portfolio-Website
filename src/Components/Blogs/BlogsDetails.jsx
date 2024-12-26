@@ -215,7 +215,7 @@ const BlogsDetails = () => {
         const message = e.target.message.value;
         const rating = value;
         const email = "demo@mail.com";
-        const userName = "anonymusUser";
+        const userName = "Anonymus User";
         const photoURL = "https://tse2.mm.bing.net/th?id=OIP.RhSxWB9hh6m-zupBh9sTXwHaHw&pid=Api&P=0&h=220"
         const date = new Date();
 
@@ -240,7 +240,7 @@ const BlogsDetails = () => {
         <div>
 
             <div className="container flex flex-col w-[95%] md:max-w-[70%] p-6 mx-auto  rounded-md ">
-                <h2 className="text-4xl font-bold mb-5" >{blog?.title}</h2>
+                <h2 className="text-xl md:text-2xl lg:text-4xl font-bold mb-5" >{blog?.title}</h2>
 
                 <div className="flex justify-between p-4 border-b-2">
                     <div className="flex space-x-4">

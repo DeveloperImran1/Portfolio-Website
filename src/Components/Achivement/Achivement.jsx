@@ -46,7 +46,8 @@ const Achivement = () => {
                         <div className="" >
 
 
-                            <div className="mt-9 " >
+                            <div data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom" className="mt-9 " >
                                 <Link target="_blank" to="https://drive.google.com/file/d/1mcKXMtNhughLytJ74A1uaFz7O3KsEtoU/view?usp=sharing" >
                                     <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink size={18}></FaLink>Live Link</button>
                                 </Link>

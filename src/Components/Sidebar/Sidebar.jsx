@@ -20,7 +20,7 @@ const Sidebar = () => {
   const [sidebar, setSidebar] = useState(true)
   const currentPage = useLocation();
 
-
+console.log("Current location", currentPage.pathname)
 
   return (
 

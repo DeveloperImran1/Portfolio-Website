@@ -34,7 +34,7 @@ const BlogsCard = ({ blog }) => {
 
 
         <div className="mx-auto max-w-[300px] md:max-w-[350px] space-y-6 rounded-xl bg-white px-4 pb-8 pt-4 font-sans shadow-lg  ">
-            <Link to={`/blog/${_id}`} className="relative flex h-48 w-full justify-center lg:h-[280px] border-2">
+            <Link to={`/blogs/${_id}`} className="relative flex h-48 w-full justify-center lg:h-[280px] border-2">
                 <Swiper
                     centeredSlides={true}
                     autoplay={{
@@ -118,7 +118,7 @@ const BlogsCard = ({ blog }) => {
             </div>
             <div className="flex mx-auto flex-wrap w-[90%] items-center justify-between gap-6 text-sm md:text-base">
                 <button onClick={handleReact} className={`flex items-center `}><svg onClick={() => setBookmark(!bookMark)} width={30} className={`fill-transparent stroke-gray-500 stroke-2  hover:fill-red-500 hover:stroke-red-500 ${bookMark && "stroke-red-500 fill-red-500"}`} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ cursor: 'pointer' }}> <g strokeWidth="0"></g> <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g> <g id="SVGRepo_iconCarrier"><path d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z"></path></g></svg></button>
-                <Link  to={`/blog/${_id}`} onMouseEnter={() => setHoverd(true)} onMouseLeave={() => setHoverd(false)} className="border-2 icon-container rounded-full p-1 hover:bg-[#076aa5] border-[#076aa5] hover:text-white ease-in duration-300" >
+                <Link  to={`/blogs/${_id}`} onMouseEnter={() => setHoverd(true)} onMouseLeave={() => setHoverd(false)} className="border-2 icon-container rounded-full p-1 hover:bg-[#076aa5] border-[#076aa5] hover:text-white ease-in duration-300" >
                     {
                         hoverd ? <IoMdArrowRoundForward size={22} className="icon-hover ease-in duration-300" ></IoMdArrowRoundForward> : <MdArrowOutward size={22} className="icon-default ease-in duration-300" ></MdArrowOutward>
                     }
