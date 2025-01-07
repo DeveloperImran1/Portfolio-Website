@@ -9,7 +9,7 @@ import Lottie from "lottie-react";
 const Experience = () => {
     return (
         <div>
-            <div id="achived" className="bg-white mt-[50px] lg:mt-[70px] rounded-2xl " >
+            <div id="experience" className="bg-white mt-[50px] lg:mt-[70px] rounded-2xl " >
                 <p className="pt-11">
                     <Title title={"Professional Experience"} description={""}></Title>
                 </p>

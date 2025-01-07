@@ -1,4 +1,5 @@
 import Achivement from "../Achivement/Achivement";
+import BestProject from "../BestProject/BestProject";
 import HomeBlogs from "../Blogs/HomeBlogs";
 import Contact from "../Contact/Contact";
 import Education from "../Education/Education";
@@ -15,6 +16,7 @@ const HomeContaner = () => {
 
             <div >
                 <Skills></Skills>
+                <BestProject></BestProject>
                 <Project></Project>
                 <Testimonials></Testimonials>
                 <Achivement></Achivement>

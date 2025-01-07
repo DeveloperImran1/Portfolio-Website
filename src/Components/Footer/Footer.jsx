@@ -61,7 +61,7 @@ const Footer = () => {
                         />
                         <img
                             className="h-[60px] w-[60px] mt-4"
-                            src="https://i.ibb.co/zb2S576/I-logo-removebg-preview.png"
+                            src="https://i.postimg.cc/sXPt2qT3/Imran-Portfolio-Logo.png"
                             alt=""
                         />
                     </Link>

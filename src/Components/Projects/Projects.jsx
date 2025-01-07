@@ -41,7 +41,7 @@ const Project = () => {
                                         <div
                                             className="w-full h-full bg-animation"
                                             style={{
-                                                backgroundImage: `url(https://i.ibb.co.com/f0WDk6R/screencapture-event-sphere-bice-vercel-app-2024-12-25-09-38-48.png)`,
+                                                backgroundImage: `url(https://res.cloudinary.com/dqdircc96/image/upload/v1736268685/screencapture-event-sphere-bice-vercel-app-2024-12-25-09-38-48_1_kspsub.jpg)`,
                                             }}
                                         ></div>
                                     </div>
@@ -56,33 +56,33 @@ const Project = () => {
                                     <div className="avatar-group -space-x-[8px] rtl:space-x-reverse">
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/sW5JBYT/reactjs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/reactjs_fq9myl.png" />
                                             </div>
                                         </div>
 
                                         <div className="avatar ">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co.com/4SgX5Nk/nextjs.jpg" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260784/nextjs-icon-512x512-11yvtwzn_1_dluzow.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co.com/7YZ6LHz/bg-f8f8f8-flat-750x-075-f-pad-750x1000-f8f8f8.jpg" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260784/bg-f8f8f8-flat-750x-075-f-pad-750x1000-f8f8f8_if60tr.jpg" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co.com/vHMjW41/logo-sm.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260787/logo-sm_1_gyfe4s.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/WGVjtbX/mongodb.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/mongodb_rxsmnt.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/g6D3GsT/nodejs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260777/nodejs_p6l5f9.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -142,7 +142,7 @@ const Project = () => {
                                         <div
                                             className="w-full h-full bg-animation"
                                             style={{
-                                                backgroundImage: `url(https://i.ibb.co.com/6cQNPs4/screencapture-book-vila-client-vercel-app-2024-12-25-18-47-58.png)`,
+                                                backgroundImage: `url(https://res.cloudinary.com/dqdircc96/image/upload/v1736268678/screencapture-book-vila-client-vercel-app-2024-12-25-18-47-58_1_mh0qk8.jpg)`,
                                             }}
                                         ></div>
                                     </div>
@@ -156,33 +156,33 @@ const Project = () => {
                                     <div className="avatar-group -space-x-[8px] rtl:space-x-reverse">
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/sW5JBYT/reactjs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/reactjs_fq9myl.png" />
                                             </div>
                                         </div>
 
                                         <div className="avatar ">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co.com/4SgX5Nk/nextjs.jpg" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260784/nextjs-icon-512x512-11yvtwzn_1_dluzow.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co.com/7YZ6LHz/bg-f8f8f8-flat-750x-075-f-pad-750x1000-f8f8f8.jpg" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260784/bg-f8f8f8-flat-750x-075-f-pad-750x1000-f8f8f8_if60tr.jpg" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co.com/vHMjW41/logo-sm.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260787/logo-sm_1_gyfe4s.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/WGVjtbX/mongodb.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/mongodb_rxsmnt.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/g6D3GsT/nodejs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260777/nodejs_p6l5f9.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -242,7 +242,7 @@ const Project = () => {
                                         <div
                                             className="w-full h-full bg-animation"
                                             style={{
-                                                backgroundImage: `url(https://i.ibb.co.com/Dw9mPK6/screencapture-touristbook-netlify-app-2024-12-25-17-51-54.png)`,
+                                                backgroundImage: `url(https://res.cloudinary.com/dqdircc96/image/upload/v1736268671/screencapture-touristbook-netlify-app-2024-12-25-17-51-54_1_vjznpw.jpg)`,
                                             }}
                                         ></div>
                                     </div>
@@ -254,35 +254,31 @@ const Project = () => {
                                 <div className="flex justify-between items-center ">
                                     <h1 className="text-xl font-semibold  text-left " >TouristBook</h1>
                                     <div className="avatar-group -space-x-[8px] rtl:space-x-reverse">
-                                        <div className="avatar xl:hidden">
-                                            <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/2ZfCjX0/tailwindcss.png" />
-                                            </div>
-                                        </div>
                                         <div className="avatar">
-                                            <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/sW5JBYT/reactjs.png" />
+                                            <div className="w-[30px] xl:hidden">
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/reactjs_fq9myl.png" />
                                             </div>
                                         </div>
 
+                                        <div className="avatar ">
+                                            <div className="w-[30px]">
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260769/javascript_lubfvy.png" />
+                                            </div>
+                                        </div>
+                                   
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/VBJgmgv/javascript.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260787/logo-sm_1_gyfe4s.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/wJDDjpc/expressjs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/mongodb_rxsmnt.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/WGVjtbX/mongodb.png" />
-                                            </div>
-                                        </div>
-                                        <div className="avatar">
-                                            <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/g6D3GsT/nodejs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260777/nodejs_p6l5f9.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -342,7 +338,7 @@ const Project = () => {
                                         <div
                                             className="w-full h-full bg-animation"
                                             style={{
-                                                backgroundImage: `url(https://i.ibb.co.com/ggBdnT0/screencapture-room-intel-netlify-app-2024-12-25-19-08-40.png)`,
+                                                backgroundImage: `url(https://res.cloudinary.com/dqdircc96/image/upload/v1736268657/screencapture-room-intel-netlify-app-2024-12-25-19-08-40_1_abkepf.jpg)`,
                                             }}
                                         ></div>
                                     </div>
@@ -354,35 +350,31 @@ const Project = () => {
                                 <div className="flex justify-between items-center ">
                                     <h1 className="text-xl font-semibold  text-left " >RoomIntel</h1>
                                     <div className="avatar-group -space-x-[8px] rtl:space-x-reverse">
-                                        <div className="avatar xl:hidden">
-                                            <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/2ZfCjX0/tailwindcss.png" />
-                                            </div>
-                                        </div>
                                         <div className="avatar">
-                                            <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/sW5JBYT/reactjs.png" />
+                                            <div className="w-[30px] xl:hidden">
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/reactjs_fq9myl.png" />
                                             </div>
                                         </div>
 
+                                        <div className="avatar ">
+                                            <div className="w-[30px]">
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260769/javascript_lubfvy.png" />
+                                            </div>
+                                        </div>
+                                   
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/VBJgmgv/javascript.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260787/logo-sm_1_gyfe4s.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/wJDDjpc/expressjs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/mongodb_rxsmnt.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/WGVjtbX/mongodb.png" />
-                                            </div>
-                                        </div>
-                                        <div className="avatar">
-                                            <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/g6D3GsT/nodejs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260777/nodejs_p6l5f9.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -442,7 +434,7 @@ const Project = () => {
                                         <div
                                             className="w-full h-full bg-animation"
                                             style={{
-                                                backgroundImage: `url(https://i.ibb.co.com/MCJ0LNG/screencapture-developerimran1-github-io-Study-Nest-Landing-page-2024-12-25-18-56-18.png)`,
+                                                backgroundImage: `url(https://res.cloudinary.com/dqdircc96/image/upload/v1736268645/screencapture-developerimran1-github-io-Study-Nest-Landing-page-2024-12-25-18-56-18_1_bmsuz5.jpg)`,
                                             }}
                                         ></div>
                                     </div>
@@ -456,22 +448,22 @@ const Project = () => {
                                     <div className="avatar-group -space-x-[8px] rtl:space-x-reverse">
                                         <div className="avatar ">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/Ns0mvQf/html5.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260774/html5_xfw2yn.png" />
                                             </div>
                                         </div>
                                         <div className="avatar ">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/1GzSwm8/css3.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/css3_wczxcl.png" />
                                             </div>
                                         </div>
                                         <div className="avatar ">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/2ZfCjX0/tailwindcss.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260771/tailwindcss_anjt42.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/sW5JBYT/reactjs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/reactjs_fq9myl.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -529,7 +521,7 @@ const Project = () => {
                                         <div
                                             className="w-full h-full bg-animation"
                                             style={{
-                                                backgroundImage: `url(https://i.ibb.co.com/djKkK8Y/screencapture-assignment-9-c67d9-web-app-2024-12-25-19-05-32.png)`,
+                                                backgroundImage: `url(https://res.cloudinary.com/dqdircc96/image/upload/v1736269051/screencapture-assignment-9-c67d9-web-app-2024-12-25-19-05-32_cb6xho.jpg)`,
                                             }}
                                         ></div>
                                     </div>
@@ -543,33 +535,33 @@ const Project = () => {
                                     <div className="avatar-group -space-x-[8px] rtl:space-x-reverse">
                                         <div className="avatar xl:hidden">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/2ZfCjX0/tailwindcss.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260771/tailwindcss_anjt42.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/sW5JBYT/reactjs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/reactjs_fq9myl.png" />
                                             </div>
                                         </div>
 
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/VBJgmgv/javascript.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260769/javascript_lubfvy.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/wJDDjpc/expressjs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260783/expressjs_zqjbld.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/WGVjtbX/mongodb.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/mongodb_rxsmnt.png" />
                                             </div>
                                         </div>
                                         <div className="avatar">
                                             <div className="w-[30px]">
-                                                <img className="p-1" src="https://i.ibb.co/g6D3GsT/nodejs.png" />
+                                                <img className="p-1" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260777/nodejs_p6l5f9.png" />
                                             </div>
                                         </div>
                                     </div>

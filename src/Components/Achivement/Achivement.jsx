@@ -14,7 +14,7 @@ const Achivement = () => {
                 <div className="flex flex-col lg:flex-row justify-between gap-11 p-6 z-50 " >
 
                     <Link className="" target="_blank" to="https://drive.google.com/file/d/1mcKXMtNhughLytJ74A1uaFz7O3KsEtoU/view?usp=sharing">
-                        <img className="h-full rounded-2xl w-full" src="https://i.postimg.cc/KjS4YPVn/Recomendation-Letter.png" alt="" />
+                        <img className="h-full rounded-2xl w-full" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736265442/Recomendation-Letter_huxfzh.png" alt="Recomendation letter" />
                     </Link>
 
 

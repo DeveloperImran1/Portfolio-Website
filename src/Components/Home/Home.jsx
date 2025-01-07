@@ -8,12 +8,12 @@ import { Link } from 'react-router-dom';
 export default function Home() {
 
   return (
-    <div id="home" className={`relative flex flex-col justify-center items-center gap-2 mx-auto mt-[40px] md:mt-[70px]  `}>
+    <div id="" className={`relative flex flex-col justify-center items-center gap-2 mx-auto mt-[40px] md:mt-[70px]  `}>
 
       
       <img className="w-[150px] lg:w-[180px] h-[150px] lg:h-[180px] z-10 rounded-full" src="https://i.postimg.cc/PxXKg8zy/Developer-Imran-Profile.png" alt="Profile Image" />
       <span className=" text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center mt-3 ">
-        Hi <img className="" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width="35" />
+        Hi <img className="" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736266015/Hi_ut0xb5.gif" width="35" />
        <span className='ml-[10px] '>I am Imran</span>
        </span>
     
@@ -61,12 +61,12 @@ export default function Home() {
       </div>
 
    
-      <img className="h-[60px] w-[60px] rounded-full  animate-spin absolute top-[-4%] right-[15%]" src="https://i.ibb.co/sW5JBYT/reactjs.png" alt="" />
-      <img className="animate-scale h-[30px] w-[30px]  rounded-full  absolute  top-[24%] right-[15%]" src="https://i.ibb.co/WGVjtbX/mongodb.png" alt="" />
+      <img className="h-[60px] w-[60px] rounded-full  animate-spin absolute top-[-4%] right-[15%]" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/reactjs_fq9myl.png" alt="" />
+      <img className="animate-scale h-[30px] w-[30px]  rounded-full  absolute  top-[24%] right-[15%]" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/mongodb_rxsmnt.png" alt="" />
 
-      <img className="h-[40px] w-[40px] rounded-full absolute top-[-4%] left-[15%]" src="https://i.ibb.co/VBJgmgv/javascript.png" alt="" />
+      <img className="h-[40px] w-[40px] rounded-full absolute top-[-4%] left-[15%]" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260769/javascript_lubfvy.png" alt="" />
 
-      <img className="animate-scale h-[30px] w-[30px] hidden lg:block  rounded-full absolute top-[24%] left-[15%]" src="https://i.ibb.co/wJDDjpc/expressjs.png" alt="" />
+      <img className="animate-scale h-[30px] w-[30px]  rounded-full absolute top-[24%] left-[15%]" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260783/expressjs_zqjbld.png" alt="" />
 
     </div>
   );

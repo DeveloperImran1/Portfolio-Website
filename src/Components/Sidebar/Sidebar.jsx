@@ -1,4 +1,4 @@
-import { MdHome } from "react-icons/md";
+import { MdHome, MdWorkOutline } from "react-icons/md";
 import { FaFileContract, FaRegUser } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa6";
@@ -38,7 +38,7 @@ console.log("Current location", currentPage.pathname)
           />
           <img
             className="h-[60px] w-[60px] mt-4"
-            src="https://i.ibb.co/zb2S576/I-logo-removebg-preview.png"
+            src="https://i.postimg.cc/sXPt2qT3/Imran-Portfolio-Logo.png"
             alt=""
           />
         </Link>
@@ -66,24 +66,24 @@ console.log("Current location", currentPage.pathname)
           </div>
 
           <div className="tooltip  tooltip-right" data-tip="Projects">
-            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#projects'}`} className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#bestProject'}`} className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
 
               <FaLayerGroup size={17} className="text-[#0095ff]"></FaLayerGroup>
             </a>
           </div>
 
-          <div className="tooltip  tooltip-right" data-tip="My Team">
-            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#review'}`} className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
-
-              <FaUsers size={17} className="text-[#0095ff]"></FaUsers>
-            </a>
-          </div>
-
-
+     
           <div className="tooltip  tooltip-right" data-tip="Achievement">
             <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#achived'}`} className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
 
               <TfiCup size={17} className="text-[#0095ff]"></TfiCup>
+            </a>
+          </div>
+
+          <div className="tooltip  tooltip-right" data-tip="Experience">
+            <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#experience'}`} className="hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-150 h-8 w-8 flex justify-center items-center">
+
+              <MdWorkOutline size={17} className="text-[#0095ff]"></MdWorkOutline>
             </a>
           </div>
 
@@ -136,24 +136,22 @@ console.log("Current location", currentPage.pathname)
           </a>
 
 
-          <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#projects'}`} className="flex items-center gap-2" >
+          <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#bestProject'}`} className="flex items-center gap-2" >
             <FaLayerGroup size={17} className="text-[#0095ff]  hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-125 h-6 w-6 flex justify-center items-center"></FaLayerGroup>
             <p className="text-[17px]">Projects</p>
           </a>
-
-
-
-          <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#review'}`} className="flex items-center gap-2" >
-            <FaUsers size={17} className="text-[#0095ff]  hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-125 h-6 w-6 flex justify-center items-center"></FaUsers>
-            <p className="text-[17px]">My Team</p>
-          </a>
-
-
 
           <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#achived'}`} className="flex items-center gap-2" >
             <TfiCup size={17} className="text-[#0095ff] p-[2px] hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-125 h-6 w-6 flex justify-center items-center"></TfiCup>
             <p className="text-[17px]">Achievement</p>
           </a>
+
+
+          <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#experience'}`} className="flex items-center gap-2" >
+            <MdWorkOutline size={17} className="text-[#0095ff]  hover:text-[#076aa5] rounded-full shadow-[0px_2px_8px_0px_rgba(99,99,99,0.4)]  duration-300 hover:scale-125 h-6 w-6 flex justify-center items-center"></MdWorkOutline>
+            <p className="text-[17px]">Experience</p>
+          </a>
+
 
 
           <a href={`${currentPage.pathname.includes('blogs') ? '/' : '#education'}`} className="flex items-center gap-2" >

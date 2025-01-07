@@ -162,7 +162,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped1} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce  transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/Ns0mvQf/html5.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce  transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260774/html5_xfw2yn.png" alt="HTML" />
 
                                     </div>
 
@@ -178,7 +178,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped2} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/1GzSwm8/css3.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/css3_wczxcl.png" alt="CSS" />
 
                                     </div>
 
@@ -194,7 +194,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped3} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/2ZfCjX0/tailwindcss.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260771/tailwindcss_anjt42.png" alt="Tailwind CSS" />
 
                                     </div>
 
@@ -211,7 +211,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped4} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/VBJgmgv/javascript.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260769/javascript_lubfvy.png" alt="Javascript" />
 
                                     </div>
 
@@ -228,7 +228,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped5} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/sW5JBYT/reactjs.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/reactjs_fq9myl.png" alt="React JS" />
 
                                     </div>
 
@@ -245,7 +245,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped16} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.postimg.cc/yN5PwLjT/nextjs-icon-512x512-11yvtwzn.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260784/nextjs-icon-512x512-11yvtwzn_1_dluzow.png" alt="NextJs" />
                                     </div>
 
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >
@@ -261,7 +261,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped17} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co.com/vHMjW41/logo-sm.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260787/logo-sm_1_gyfe4s.png" alt="Next Auth" />
 
                                     </div>
 
@@ -278,7 +278,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped18} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co.com/D5fcb4M/Firebase-logo-02.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260780/Firebase-logo-02_1_kwxz25.png" alt="Firebase" />
 
                                     </div>
 
@@ -295,7 +295,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped19} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co.com/HDyTSmy/socket-io-logo-icon-144874.webp" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260788/socket-io-logo-icon-144874_yl1hpb.webp" alt="Socket Io" />
 
                                     </div>
 
@@ -322,7 +322,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped6} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/g6D3GsT/nodejs.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260777/nodejs_p6l5f9.png" alt="Node JS" />
 
                                     </div>
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >
@@ -339,7 +339,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped7} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/wJDDjpc/expressjs.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260783/expressjs_zqjbld.png" alt="Express JS" />
 
                                     </div>
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >
@@ -353,7 +353,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped8} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/WGVjtbX/mongodb.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260776/mongodb_rxsmnt.png" alt="MongoDB" />
 
                                     </div>
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >
@@ -368,7 +368,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped20} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.postimg.cc/jdXhsxv2/bg-f8f8f8-flat-750x-075-f-pad-750x1000-f8f8f8.jpg" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260784/bg-f8f8f8-flat-750x-075-f-pad-750x1000-f8f8f8_if60tr.jpg" alt="Mongoose" />
 
                                     </div>
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >
@@ -397,7 +397,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped9} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/n7KcsPK/github.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260774/github_qfw6tf.png" alt="Github" />
 
                                     </div>
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >
@@ -412,11 +412,11 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped10} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/gJNnM1S/git.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260773/git_orugy2.png" alt="Git" />
 
                                     </div>
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >
-                                        <h1 className="text-xl font-semi-bold px-6 md:px-8">Github</h1>
+                                        <h1 className="text-xl font-semi-bold px-6 md:px-8">Git</h1>
                                         <p className="text-[16px]  ">Advanced</p>
                                     </div>
 
@@ -427,7 +427,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped11} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/Zd51cmf/npm.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260771/npm_ripeco.png" alt="npm" />
 
                                     </div>
 
@@ -443,7 +443,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped12} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/wpkXMh2/adobe-photoshop.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260770/adobe-photoshop_qr10gt.png" alt="Adobe Photoshop" />
 
                                     </div>
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >
@@ -458,7 +458,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped13} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/sQ6mHJw/figma.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260769/figma_ufzidn.png" alt="Figma" />
 
                                     </div>
 
@@ -474,7 +474,7 @@ const Skills = () => {
                                 <ReactCardFlip isFlipped={isFlipped14} flipDirection="horizontal">
 
                                     <div className="bg-white    p-6 md:p-8 group  flex flex-col justify-center items-center space-y-3 my-transition h-[150px]  text-center ring-1 ring-ring-color overflow-hidden  rounded-br-3xl rounded-tl-3xl  transition-all duration-300 ease-in-out transform delay-200" >
-                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://i.ibb.co/mG9Psfn/pixso.png" alt="" />
+                                        <img className="size-[90px] animate-smoth-bounce transition-all duration-300 ease-in-out transform delay-200   group-hover:shadow-md p-2 rounded-xl object-cover overflow-hidden" src="https://res.cloudinary.com/dqdircc96/image/upload/v1736260768/pixso_kbcfsc.png" alt="" />
 
                                     </div>
                                     <div className="bg-[#007ec3] h-[150px]    text-white group  flex flex-col justify-center items-center space-y-3 my-transition  text-center ring-1 ring-ring-color overflow-hidden  rounded-tr-3xl rounded-bl-3xl  transition-all duration-300 ease-in-out transform delay-200 hover:rotateY-(90)" >

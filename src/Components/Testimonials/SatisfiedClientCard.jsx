@@ -7,7 +7,7 @@ const SatisfiedClientCard = ({client}) => {
         <div>
             <article className="flex flex-col w-[250px] lg:w-[300px] mr-9 p-4 transition border-2 rounded-xl hover:scale-105 border-sky-500  border-opacity-30 hover:border-opacity-100 hover:no-underline focus:no-underline ">
                 <div className="w-full h-52 rounded-xl bg-gray-100 flex justify-center items-center ">
-                    <img className="size-[130px] bg-white object-cover rounded-full hover:blur-[2px] duration-500" src={image || 'https://source.unsplash.com/200x200/?fashion?2' } alt="avatar navigate ui" />
+                    <img className="size-[130px] bg-white object-cover rounded-full  duration-500" src={image || 'https://source.unsplash.com/200x200/?fashion?2' } alt="Team Member" />
                 </div>
                 <div className="flex flex-col flex-1 py-6">
                     <a rel="noopener noreferrer"  aria-label="Te nulla oportere reprimique his dolorum"></a>

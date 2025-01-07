@@ -3,7 +3,7 @@
   {
     "id": 1,
     "name": "Mehedi Hasan",
-    "image": "https://i.ibb.co.com/4pDHZ0W/80879547-156460399137229-6382236301373997056-n-removebg-preview.png",
+    "image": "https://res.cloudinary.com/dqdircc96/image/upload/v1736265201/80879547-156460399137229-6382236301373997056-n-removebg-preview_ycm46k.png",
     "date": "2 September 2024",
     "review": {
       "type": "Member",
@@ -13,8 +13,8 @@
   {
     "id": 2,
     "name": "Tauhid Hasan",
-    "image": "https://i.ibb.co.com/F54Cjp6/358150787-804778527954738-8479351547486658785-n-removebg-preview.png",
-    "date": "3 September 2024",
+    "image": "https://res.cloudinary.com/dqdircc96/image/upload/v1736265191/358150787-804778527954738-8479351547486658785-n-removebg-preview_aa8mw2.png",
+    "date": "1 September 2024",
     "review": {
       "type": "Member",
       "description": "Specializes in UI/UX design and frontend architecture."
@@ -23,7 +23,7 @@
   {
     "id": 3,
     "name": "Imran",
-    "image": "https://i.postimg.cc/PxXKg8zy/Developer-Imran-Profile.png",
+    "image": "https://res.cloudinary.com/dqdircc96/image/upload/v1736265206/Developer-Imran-Profile_vt8wix.png",
     "date": "1 September 2024",
     "review": {
       "type": "Team Leader",
@@ -33,8 +33,8 @@
   {
     "id": 4,
     "name": "Asaduzzaman Atik",
-    "image": "https://i.ibb.co.com/4NfVJhp/1730231530245-removebg-preview.png",
-    "date": "4 September 2024",
+    "image": "https://res.cloudinary.com/dqdircc96/image/upload/v1736265245/1730231530245-removebg-preview_1_ejzwvs.png",
+    "date": "1 September 2024",
     "review": {
       "type": "Member",
       "description": "Ensures efficient backend and API integrations."
@@ -43,8 +43,8 @@
   {
     "id": 5,
     "name": "Joweel Ahmed",
-    "image": "https://i.ibb.co.com/gVPdpKQ/Whats-App-Image-2024-05-30-at-15-48-32-553db7f4-removebg-preview.png",
-    "date": "5 September 2024",
+    "image": "https://res.cloudinary.com/dqdircc96/image/upload/v1736265243/Whats-App-Image-2024-05-30-at-15-48-32-553db7f4-removebg-preview_vy4nbk.png",
+    "date": "1 September 2024",
     "review": {
       "type": "Member",
       "description": "Focuses on building responsive and adaptive designs."
@@ -53,8 +53,8 @@
   {
     "id": 6,
     "name": "Zakia Sultana",
-    "image": "https://i.ibb.co.com/7CLspgN/IMG-20241104-WA0000-removebg-preview.png",
-    "date": "6 September 2024",
+    "image": "https://res.cloudinary.com/dqdircc96/image/upload/v1736265245/IMG-20241104-WA0000-removebg-preview_1_va9kb6.png",
+    "date": "1 September 2024",
     "review": {
       "type": "Member",
       "description": "Proficient in HTML, CSS, and JavaScript for clean designs."
