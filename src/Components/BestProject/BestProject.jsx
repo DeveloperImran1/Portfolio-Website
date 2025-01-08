@@ -40,28 +40,40 @@ const BestProject = () => {
                             <div data-aos="fade-up"
                                 data-aos-anchor-placement="bottom-bottom" className="mt-9 " >
                                 <Link target="_blank" to="https://github.com/DeveloperImran1/EventSphere" >
-                                    <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink size={18}></FaLink>Client Side</button>
+                                    <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink className="hidden lg:block" size={18}></FaLink>Client Side</button>
                                 </Link>
                             </div>
                             <div data-aos="fade-up"
                                 data-aos-anchor-placement="bottom-bottom" className="mt-9 " >
                                 <Link target="_blank" to="https://github.com/DeveloperImran1/EventSphare-Server" >
-                                    <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink size={18}></FaLink>Server Side</button>
+                                    <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink className="hidden lg:block" size={18}></FaLink>Server Side</button>
                                 </Link>
                             </div>
                             <div data-aos="fade-up"
                                 data-aos-anchor-placement="bottom-bottom" className="mt-9 " >
                                 <Link target="_blank" to="https://event-sphere-bice.vercel.app/" >
-                                    <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink size={18}></FaLink>Live Link</button>
+                                    <button className="animate-button rounded-3xl border-2 border-sky-500 px-1 md:px-3 py-1 lg:py-2 text-[12px] lg:text-[15px] text-sky-500 duration-200 hover:bg-sky-500 hover:text-white flex gap-1 justify-center items-center"><FaLink className="hidden lg:block" size={18}></FaLink>Live Link</button>
                                 </Link>
                             </div>
                         </div>
                     </div>
 
 
-                    <div className="lg:w-[50%]" data-aos="zoom-in-up" >
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1yaHesugsFM?si=bwlypqwcE4upva8a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div
+                        className="lg:w-[50%] aspect-w-16 aspect-h-9"
+                        data-aos="zoom-in-up"
+                    >
+                        <iframe
+                            className="w-full h-full"
+                            src="https://www.youtube.com/embed/1yaHesugsFM?si=bwlypqwcE4upva8a"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen
+                        ></iframe>
                     </div>
+
                 </div>
 
             </div>
