@@ -362,8 +362,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           speechSynthesis={{ enable: false, lang: "en" }}
         />
       </div>
-      ,{/* document.getElementById('root') */}
+      {/* document.getElementById('root') */}
       {/* <div className="App">
+
+      
       <AnimatedCursor />
     </div> */}
     </QueryClientProvider>
