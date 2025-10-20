@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import BlogForm from "@/components/BlogForm";
@@ -46,7 +47,7 @@ const BlogManagementPage = () => {
 
   console.log("blogs ", blogs);
 
-  const handlePage = async (pageNumber) => {
+  const handlePage = async (pageNumber: any) => {
     if (pageNumber < 1 || pageNumber > blogs?.meta?.totalPage) {
       return;
     }

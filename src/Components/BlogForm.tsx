@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // src/components/BlogForm.tsx
 "use client";
 
@@ -28,18 +29,33 @@ type BlogFormData = {
 type BlogInitial = {
   _id?: string;
   title?: string;
+  thumbnail?: string;
   category?: string;
   content?: string;
+  tags?: string[];
+  isFeatured?: boolean;
 };
 
-export default function BlogForm({
-  onSaved,
-  initial,
-  refetch,
-}: {
-  onSaved?: () => void;
-  initial?: BlogInitial;
-}) {
+interface BlogFormProps {
+  onSaved: (data: {
+    title: string;
+    content: string;
+    thumbnail?: string;
+    tags: string[];
+    category: string;
+    isFeatured: boolean;
+  }) => void;
+  initial: {
+    title: string;
+    content: string;
+    thumbnail?: string;
+    tags: string[];
+    category: string;
+    isFeatured: boolean;
+  };
+}
+
+export default function BlogForm({ onSaved, initial }: BlogFormProps) {
   const form = useForm<BlogFormData>({
     defaultValues: {
       title: initial?.title || "",
@@ -82,7 +98,7 @@ export default function BlogForm({
       onSaved?.();
       setLoading(false);
       toast.success("Blog posted", { id: toastId });
-      refetch();
+      // refetch();
     } catch (error) {
       toast.error("Blog post failed", { id: toastId });
       setLoading(false);

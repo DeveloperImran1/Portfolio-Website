@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 
 const letterAnimation = {
@@ -14,7 +13,7 @@ const letterAnimation = {
 };
 
 const getLetter = (name) => {
-  let letters = [];
+  const letters = [];
   name.split("").forEach((letter, index) => {
     return letters.push(
       <motion.span
@@ -31,19 +30,21 @@ const getLetter = (name) => {
   return letters;
 };
 
-
-
 const Title = ({ title, description }) => {
-
-    return (
-        <div className="flex flex-col items-center">
-             {/* <div className={`${textStyles}`}>{getLetter(text)}</div>; */}
-            <div id="title" className="text-3xl mb-5 w-full font-bold text-center mx-auto">{getLetter(title)}</div>
-            <p className="md:w-[60%] mx-auto text-center hidden md:block" >{getLetter(description)}</p>
-
-
-        </div>
-    );
+  return (
+    <div className="flex flex-col items-center">
+      {/* <div className={`${textStyles}`}>{getLetter(text)}</div>; */}
+      <div
+        id="title"
+        className="text-3xl mb-5 w-full font-bold text-center mx-auto"
+      >
+        {getLetter(title)}
+      </div>
+      <p className="md:w-[60%] mx-auto text-center hidden md:block">
+        {getLetter(description)}
+      </p>
+    </div>
+  );
 };
 
 export default Title;

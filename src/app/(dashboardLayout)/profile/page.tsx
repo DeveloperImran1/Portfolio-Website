@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import Loading from "@/components/shared/Loading";
@@ -215,7 +216,7 @@ const ProfilePage = () => {
                       setImage={setImage}
                       currentImage={user?.data?.picture}
                     ></SingleImageUploader>
-                  
+
                     <FormField
                       control={form.control}
                       name="name"

@@ -1,11 +1,12 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
-import { useEffect, useState } from "react";
-import { useRouter, useParams } from "next/navigation";
-import axios from "axios";
 import BlogForm from "@/components/BlogForm";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import axios from "axios";
+import { useParams, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 interface BlogFormData {
   title: string;
@@ -70,7 +71,9 @@ const EditBlogPage = () => {
   if (loading)
     return (
       <div className="flex items-center justify-center h-screen">
-        <p className="text-gray-600 text-base sm:text-lg">Loading blog details...</p>
+        <p className="text-gray-600 text-base sm:text-lg">
+          Loading blog details...
+        </p>
       </div>
     );
 
@@ -95,11 +98,7 @@ const EditBlogPage = () => {
         </CardHeader>
 
         <CardContent>
-          <BlogForm
-            initialData={blog}
-            onSubmit={handleUpdate}
-            buttonText="Update Blog"
-          />
+          <BlogForm onSaved={handleUpdate as any} initial={blog} />
         </CardContent>
       </Card>
     </div>

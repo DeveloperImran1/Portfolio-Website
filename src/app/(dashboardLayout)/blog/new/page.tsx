@@ -30,9 +30,8 @@ const NewBlogPage = () => {
 
         <div className="w-full">
           <BlogForm
-            onSubmit={handleCreateBlog}
-            buttonText="Create Blog"
-            initialData={{
+            onSaved={handleCreateBlog}
+            initial={{
               title: "",
               content: "",
               thumbnail: "",
